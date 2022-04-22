@@ -16,7 +16,7 @@ export const LaserTerapia: React.FC<LaserTerapiaProps> = ({}) => {
                 tessuti. Grazie alla sinergie di questi impulsi, si hanno effetti terapeutici antiinfiammatori,
                 antiedemigeni, analgesici e biostimolanti.
             </p>
-            <h2 className="text-secondary">
+            <h2 className="text-secondary text-[25px]">
                 Indicazioni teraupetiche
             </h2>
             <ul className="list-disc px-10">

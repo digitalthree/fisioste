@@ -6,7 +6,7 @@ interface FEGProps {
 export const FEG: React.FC<FEGProps> = ({}) => {
     return (
         <>
-            <h2 className="text-secondary">
+            <h2 className="text-secondary text-[25px]">
                 Fisioterapia Eco-Guidata
             </h2>
             <p className="text-[18px] mb-4">

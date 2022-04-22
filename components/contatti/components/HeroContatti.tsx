@@ -10,8 +10,6 @@ export const HeroContatti: React.FC<HeroContattiProps> = ({}) => {
                  style={{
                      backgroundImage: "url('/img/contatti/contact-banner.png')",
                      backgroundSize: "cover",
-                     backgroundPositionY: "50%",
-                     backgroundPositionX: '100px'
                  }}
             >
                 <div className="container m-auto">
@@ -27,9 +25,8 @@ export const HeroContatti: React.FC<HeroContattiProps> = ({}) => {
 
             <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
                  style={{
-                     backgroundImage: "url('/img/contatti/contact-banner.png')",
+                     backgroundImage: "url('/img/servizi/banners/mobile/Osteopatia.png')",
                      backgroundSize: "cover",
-                     backgroundPositionX: "-150px"
                  }}
             >
                 <div className="container m-auto">

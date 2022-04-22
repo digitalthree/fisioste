@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import {FaFacebookF, FaInstagram, FaYoutube} from "react-icons/fa";
+import {useRouter} from "next/router";
 
 interface DesktopMenuProps {
 }
@@ -9,6 +10,7 @@ interface DesktopMenuProps {
 export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
 
     const [stickyClass, setStickyClass] = useState('relative');
+    const router = useRouter()
 
     useEffect(() => {
         window.addEventListener('scroll', stickNavbar);
@@ -29,11 +31,12 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
         <>
             <div className="w-full bg-white hidden md:block">
                 <div className="container px-8 m-auto hidden lg:flex py-3 justify-between">
-                    <div className="flex items-center">
-                        <Image src={'/img/Fisioste_Logo.webp'} width="80px" height="80px" layout="intrinsic" alt="Fisioste Logo"/>
-                        <Image src={'/img/home/Fiosioste_Font.webp'} width="200px" height="47px" layout="fixed" alt="Fisioste Logo"/>
-                    </div>
-
+                    <Link href="/">
+                        <div className="flex items-center hover:cursor-pointer">
+                            <Image src={'/img/Fisioste_Logo.webp'} width="80px" height="80px" layout="intrinsic" alt="Fisioste Logo"/>
+                            <Image src={'/img/home/Fiosioste_Font.webp'} width="200px" height="47px" layout="fixed" alt="Fisioste Logo"/>
+                        </div>
+                    </Link>
                     <div className="flex">
                         <div className="flex items-center mr-6">
                             <Image src={'/img/clock1.png'} width="50px" height="50px" layout="fixed" alt="Fisioste clock"/>
@@ -66,19 +69,34 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                     <div className="container m-auto flex items-center justify-between hidden md:flex">
                         <div className="py-4">
                             <Link href="/">
-                                <span className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase">Home</span>
+                                <span
+                                    className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
+                                    style={{fontWeight: router.pathname === "/" ? 900 : 400, color: router.pathname === "/" ? '#264193' : ''}}
+                                >Home</span>
                             </Link>
                             <Link href="/chiSiamo">
-                                <span className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase">Chi siamo</span>
+                                <span
+                                    className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
+                                    style={{fontWeight: router.pathname === "/chiSiamo" ? 900 : 400, color: router.pathname === "/chiSiamo" ? '#264193' : ''}}
+                                >Chi siamo</span>
                             </Link>
                             <Link href="/servizi">
-                                <span className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase">Servizi</span>
+                                <span
+                                    className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
+                                    style={{fontWeight: router.pathname === "/servizi" ? 900 : 400, color: router.pathname === "/servizi" ? '#264193' : ''}}
+                                >Servizi</span>
                             </Link>
                             <Link href="/news">
-                                <span className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase">News</span>
+                                <span
+                                    className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
+                                    style={{fontWeight: router.pathname === "/news" ? 900 : 400, color: router.pathname === "/news" ? '#264193' : ''}}
+                                >News</span>
                             </Link>
                             <Link href="/contatti">
-                                <span className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase">Contatti</span>
+                                <span
+                                    className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
+                                    style={{fontWeight: router.pathname === "/contatti" ? 900 : 400, color: router.pathname === "/contatti" ? '#264193' : ''}}
+                                >Contatti</span>
                             </Link>
                         </div>
 

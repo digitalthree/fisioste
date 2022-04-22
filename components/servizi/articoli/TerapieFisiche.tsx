@@ -6,7 +6,7 @@ interface TerapieFisicheProps {
 export const TerapieFisiche: React.FC<TerapieFisicheProps> = ({}) => {
     return (
         <>
-            <h2 className="underline">Presso FISIOSTE è possibile eseguire le migliori terapie fisiche</h2>
+            <h2 className="underline text-[25px]">Presso FISIOSTE è possibile eseguire le migliori terapie fisiche</h2>
             <p className="text-[18px] mb-2 mt-2"><span className="font-bold">Ultrasuono:</span> in campo terapeutico gli
                 ultrasuoni sono ottenuti in modo artificiale sfruttando le proprietà di alcuni cristalli minerali
                 sottoposti all’azione di un campo elettrico.

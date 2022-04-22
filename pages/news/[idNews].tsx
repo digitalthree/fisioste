@@ -67,7 +67,7 @@ const ServizioSpecifico = ({news}: InferGetStaticPropsType<typeof getStaticProps
 
                 <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
                      style={{
-                         backgroundImage: `url(${newsSelezionata.imgUrl})`,
+                         backgroundImage: `url(${newsSelezionata.bannerImgUrl})`,
                          backgroundSize: "cover",
                      }}
                 >

@@ -7,7 +7,7 @@ export const HeroChiSiamo: React.FC<HeroChiSiamoProps> = ({}) => {
     return(
         <>
             <div
-                className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
+                className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden xl:flex justify-start bg-no-repeat"
                 style={{
                     backgroundImage: "url('/img/chisiamo/team.png')",
                     backgroundSize: "contain",
@@ -27,11 +27,11 @@ export const HeroChiSiamo: React.FC<HeroChiSiamoProps> = ({}) => {
             </div>
 
 
-            <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
+            <div className="h-[48vh] xl:hidden p-2 flex justify-start bg-no-repeat bg-auto"
                  style={{
                      backgroundImage: "url('/img/chisiamo/team_mobile.png')",
                      backgroundSize: "cover",
-                     backgroundPositionX: "-100px"
+                     backgroundPositionX: "50%"
                  }}
                  data-aos="fade-in"
                  data-aos-duration="2000"

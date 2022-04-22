@@ -29,7 +29,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                     vuole raggiungere.
                     I risultati sono immediati e visibile già dalla prima seduta.
                 </p>
-                <h2 className="text-secondary mt-3">Cos’è l’Onda Acustica?</h2>
+                <h2 className="text-secondary text-[25px] mt-3">Cos’è l’Onda Acustica?</h2>
                 <p className="text-[18px] mb-4">L’onda acustica ad alta energia generata da un’onda sonora indotta da un
                     generatore di tipo balistico.
                 </p>
@@ -43,7 +43,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                     favorire maggiormente i processi depuratori dell’organismo stimolati dal trattamento. I primi
                     risultati sono visibili già dalla prima seduta.
                 </p>
-                <h2 className="text-secondary mt-3">Benefici</h2>
+                <h2 className="text-secondary text-[25px] mt-3">Benefici</h2>
                 <ul className="list-disc px-10">
                     <li>Stimolazione della circolazione sanguigna e linfatica</li>
                     <li>Innalzamento del calore tissutale e attivazione del meccanismo di eliminazione delle cellule
@@ -54,7 +54,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                         pelle
                     </li>
                 </ul>
-                <h2 className="text-secondary mt-3">Effetti</h2>
+                <h2 className="text-secondary text-[25px] mt-3">Effetti</h2>
                 <ul className="list-disc px-10">
                     <li>Rimodellamento del corpo</li>
                     <li>Trattamento cellulite (I-II-III stadio)</li>
@@ -64,7 +64,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                     <li>Trattamento di smagliature da gravidanza</li>
                     <li>Riduzione della circonferenza</li>
                 </ul>
-                <h2 className="text-secondary mt-3">HUMAN TECAR PHYSIO TT</h2>
+                <h2 className="text-secondary text-[25px] mt-3">HUMAN TECAR PHYSIO TT</h2>
                 <p className="text-[18px] mb-4">La Physio TT, è uno stimolatore della microcircolazione che utilizza una
                     tecnologia inserita in speciali fasce termiche, la cui funzione è di modulare fisiologicamente il
                     microclima su determinate aree del corpo.

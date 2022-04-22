@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Image from 'next/image'
-import {FaFacebookF, FaInstagram, FaYoutube} from "react-icons/fa";
 import {FooterBanner} from "./FooterBanner";
 import Link from "next/link";
 import {FooterMenu} from "./FooterMenu";
@@ -55,36 +54,6 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                             </div>
                         </div>
 
-                        {/*<div className="flex flex-col mb-10">
-                            <h2 className="text-[35px] text-secondary text-left font-normal">Contattaci</h2>
-                            <div className="flex items-center mt-2">
-                                <Image src={'/img/smartphone1.webp'} width="40px" height="40px" layout="fixed"
-                                       alt="Fisioste smartphone"/>
-                                <div className="flex flex-col">
-                                    <a href="tel:+39 3288349050" className="text-secondary ml-4 text-base xl:text-[20px] font-light hover:cursor-pointer hover:underline">+39 3288349050 </a>
-                                </div>
-                            </div>
-
-                            <div className="flex items-center mt-2">
-                                <Image src={'/img/pc_email.png'} width="40px" height="40px" layout="fixed"
-                                       alt="Fisioste smartphone"/>
-                                <div className="flex flex-col">
-                                    <a href="tel:+39 3288349050" className="text-secondary ml-4 text-base xl:text-[20px] font-light hover:cursor-pointer hover:underline">info@fisioste.it</a>
-                                </div>
-                            </div>
-
-                            <div className="flex mt-4">
-                                <Image src={'/img/pin1.png'} width="40px" height="40px" layout="fixed"
-                                       alt="Fisioste pin"/>
-                                <div className="flex flex-col">
-                                    <a className="text-secondary ml-4 text-base xl:text-[20px] font-light hover:underline" rel="noreferrer"
-                                       target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza, 29
-                                        64100 Teramo</a>
-                                </div>
-                            </div>
-                        </div>*/}
-
-
                     </div>
                 </div>
             </div>
@@ -94,11 +63,11 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                         <p className="text-base sm:text-xl mb-2 text-white">Copyright <a className="font-bold hover:cursor-pointer hover:underline" href="https://digital-three.com" target="_blank" rel="noreferrer">Digital Three</a> {new Date().getFullYear()}
                         </p>
                         <p className="text-base sm:text-xl mb-2 text-white">
-                            <Link href="/">
+                            <Link href="/cookie_policy">
                                 <span className="mr-1 hover:cursor-pointer hover:underline">Cookie Policy</span>
                             </Link>
                             -
-                            <Link href="/">
+                            <Link href="/privacy_policy">
                                 <span className="ml-1 hover:cursor-pointer hover:underline">Privacy Policy</span>
                             </Link>
                         </p>

@@ -8,10 +8,9 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
         <>
             <div className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
                  style={{
-                     backgroundImage: "url('/img/contatti/contact-banner.png')",
+                     backgroundImage: "url('/img/servizi/banner.png')",
                      backgroundSize: "cover",
                      backgroundPositionY: "50%",
-                     backgroundPositionX: '100px'
                  }}
             >
                 <div className="container m-auto">
@@ -27,9 +26,8 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
 
             <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
                  style={{
-                     backgroundImage: "url('/img/contatti/contact-banner.png')",
+                     backgroundImage: "url('/img/servizi/banner.png')",
                      backgroundSize: "cover",
-                     backgroundPositionX: "-150px"
                  }}
             >
                 <div className="container m-auto">

@@ -6,6 +6,8 @@ export type Servizio = {
     name: string,
     imgUrl: string,
     bannerImgUrl: string,
+    bannerImgUrlTablet: string,
+    bannerImgUrlMobile: string,
     description: string,
 }
 

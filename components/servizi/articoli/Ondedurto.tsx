@@ -20,7 +20,7 @@ export const Ondedurto: React.FC<OndedurtoProps> = ({}) => {
                 creazione di nuovi vasi che raggiungono i tessuti da trattare e permettono il riassorbimento di depositi
                 di calcio e il rilascio di tessuto fibroso.
             </p>
-            <h2 className="text-secondary">Principali indicazioni</h2>
+            <h2 className="text-secondary text-[25px]">Principali indicazioni</h2>
             <ul className="list-disc px-10">
                 <li>Fascite plantare</li>
                 <li>Contratture muscolari</li>
