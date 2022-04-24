@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply lg:text-[60px] md:text-[48px] text-[35px];
+        @apply lg:text-[60px] md:text-[48px] text-[35px] font-light;
     }
     h2{
         @apply lg:text-[20px] md:text-[17px] text-[14px];
@@ -26,5 +26,11 @@
     }
     input[type=number] {
         -moz-appearance: textfield;
+    }
+    #nome::placeholder, #email::placeholder{
+        color: white ;
+    }
+    #newsletter::placeholder{
+        color: #264193;
     }
 }

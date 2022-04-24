@@ -60,8 +60,10 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             <div className="bg-[#283f92] py-8 pb-24 md:py-8">
                 <div className="container m-auto">
                     <div className="flex-col sm:flex sm:flex-row sm:justify-between text-center">
-                        <p className="text-base sm:text-xl mb-2 text-white">Copyright <a className="font-bold hover:cursor-pointer hover:underline" href="https://digital-three.com" target="_blank" rel="noreferrer">Digital Three</a> {new Date().getFullYear()}
-                        </p>
+                        <p className="text-base sm:text-xl mb-2 text-white">Tutti i diritti riservati - <span className="font-bold">FisioSte.it</span></p><br/>
+                        <p className="text-base sm:text-xl mb-2 text-white">P.Iva: <span className="font-bold">IT01750720672</span><br/></p>
+                        <p className="text-base sm:text-xl mb-2 text-white">Web Design: <a className="font-bold hover:cursor-pointer hover:underline" href="https://digital-three.com" target="_blank" rel="noreferrer">digital-three.com</a><br/></p>
+
                         <p className="text-base sm:text-xl mb-2 text-white">
                             <Link href="/cookie_policy">
                                 <span className="mr-1 hover:cursor-pointer hover:underline">Cookie Policy</span>

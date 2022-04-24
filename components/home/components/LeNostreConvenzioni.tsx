@@ -7,18 +7,16 @@ interface LeNostreConvenzioniProps {
 export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
     return(
         <>
-            <div className="container m-auto flex py-32 flex-col items-center text-center">
+            <div className="container m-auto flex py-16 flex-col ju items-center text-center">
                 <div
                     data-aos="fade-down"
                     data-aos-duration="2000"
                     data-aos-once="true"
                 >
-                    <h2>Lorem ipsum dolor sit amet</h2>
                     <h1 className="mb-2">Le nostre <span className="text-secondary">convenzioni</span></h1>
-                    <hr className="border border-gray-600 w-[100px] mb-5"/>
+                    <hr className="border border-gray-600 w-[100px] mb-5 mx-auto"/>
                     <h2>
-                        Il nostro elenco è in continuo aggiornamento, per maggiori info
-                        chiamaci oppure scrivici.
+                        Scopri l’elenco delle nostre convenzioni costantemente aggiornato per te.
                     </h2>
                 </div>
 

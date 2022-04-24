@@ -19,16 +19,13 @@ export const DiconoDiNoi: React.FC<DiconoDiNoiProps> = ({}) => {
             <div className="container m-auto">
                 <div>
                     <div
+                        className="sm:text-left text-center"
                         data-aos="fade-out"
                         data-aos-duration="1500"
                         data-aos-once="true"
                     >
-                        <h2>Lorem ipsum dolor sit amet</h2>
-                        <h1 className="mb-2">Lore <span className="text-secondary">Ipsum</span></h1>
-                        <hr className="border border-secondary w-[100px] mb-5"/>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+                        <h1 className="mb-2">Dicono di <span className="text-secondary">Noi</span></h1>
+                        <hr className="border border-secondary w-[100px] mb-5 mx-auto sm:mx-0"/>
                     </div>
 
                     <div className="grid gap-4 lg:grid-cols-3 lg:gap-24 mt-14">

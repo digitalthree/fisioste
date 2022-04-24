@@ -50,21 +50,23 @@ export const Newsletter: React.FC<NewsletterProps> = ({}) => {
                     <h1 className="mb-2">Iscriviti all <span className="text-secondary">newsletter</span></h1>
                     <hr className="border border-secondary w-[100px] m-auto mb-2"/>
                     <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Resta costantemente aggiornato sulle nuove tecniche e metodologie.<br/>
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        Puoi annullare l'iscrizione in qualsiasi momento.
                     </h2>
 
                     <div className="flex-col sm:flex sm:flex-row sm:justify-center py-12 sm:py-36">
                         <div className="w-full sm:w-[350px] mb-6 sm:mb-0 sm:mr-10">
-                            <input className="appearance-none rounded-full w-full px-8 py-3 text-xl bg-[#e8e8e8] text-secondary focus:outline-none"
+                            <input className="appearance-none rounded-full w-full px-8 py-3 text-sm bg-[#e8e8e8] text-secondary focus:outline-none"
                                    type="text"
+                                   id="newsletter"
                                    placeholder="la tua mail"
                                    value={email}
                                    onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
                         <div>
-                            <button className='px-8 py-3 sm:w-[250px] w-full rounded-full bg-secondary text-white mr-7 hover:opacity-80'
+                            <button className='px-8 py-3 sm:w-[250px] w-full rounded-full bg-secondary text-white mr-7 hover:opacity-80 font-bold'
                                     onClick={iscrizioneNewsletter}
                             >
                                 ISCRIVITI

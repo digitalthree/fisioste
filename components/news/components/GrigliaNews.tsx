@@ -13,20 +13,20 @@ export const GrigliaNews: React.FC<GrigliaNewsProps> = ({news}) => {
                 {news.map(n => {
                     return (
                         <div key={n.id}
-                             className="shadow-xl flex flex-col justify-between"
+                             className="shadow-xl flex flex-col bg-[#e1edff] justify-between"
                              data-aos="fade-in"
                              data-aos-duration="1000"
                              data-aos-once="true"
                              data-aos-delay={n.id * 100}
                         >
-                            <div className="p-40 rounded-t-xl"
+                            <div className="p-40"
                                  style={{
                                      backgroundImage: `url(${n.imgUrl})`,
                                      backgroundSize: 'cover',
                                      backgroundRepeat: "no-repeat"
                                  }}
                             />
-                            <div className="flex flex-col p-4">
+                            <div className="flex flex-col p-4 ">
                                 <h2 className="text-secondary">{n.titolo}</h2>
                                 <hr className="border-t-2 border-secondary mt-2 mb-2"/>
                                 <p>{n.descrizione}</p>

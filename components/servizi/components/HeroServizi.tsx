@@ -4,21 +4,22 @@ interface HeroServiziProps {
 }
 
 export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
-    return(
+    return (
         <>
-            <div className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
-                 style={{
-                     backgroundImage: "url('/img/servizi/banner.png')",
-                     backgroundSize: "cover",
-                     backgroundPositionY: "50%",
-                 }}
+            <div
+                className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
+                style={{
+                    backgroundImage: "url('/img/servizi/banner.png')",
+                    backgroundSize: "cover",
+                    backgroundPositionY: "50%",
+                }}
             >
                 <div className="container m-auto">
                     <h1 className="text-secondary"><span className="text-black">I Nostri </span>Servizi</h1>
                     <hr className="border border-secondary w-[200px] mt-2 mb-4"/>
                     <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Scegliere i migliori professionisti per la cura di se stessi è difficile, ma non impossibile se
+                        le conoscenze tecniche diventato un tutt’uno con passione, empatia e attenzione al paziente.
                     </h2>
                 </div>
             </div>
@@ -34,8 +35,8 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
                     <h1 className="text-secondary"><span className="text-black">I Nostri </span>Servizi</h1>
                     <hr className="border border-secondary w-[200px] mt-2 mb-4"/>
                     <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Scegliere i migliori professionisti per la cura di se stessi è difficile, ma non impossibile se
+                        le conoscenze tecniche diventato un tutt’uno con passione, empatia e attenzione al paziente.
                     </h2>
                 </div>
             </div>

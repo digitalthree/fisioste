@@ -86,6 +86,7 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = ({servizi
                     <input
                         className="appearance-none rounded-full w-full px-4 py-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
                         type="text"
+                        id="nome"
                         placeholder="Nome e Cognome"
                         onChange={(e) => setName(e.target.value)}
                     />
@@ -94,6 +95,7 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = ({servizi
                     <input
                         className="appearance-none rounded-full w-full px-4 py-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
                         type="text"
+                        id="email"
                         placeholder="Email"
                         onChange={(e) => setEmail(e.target.value)}
                     />

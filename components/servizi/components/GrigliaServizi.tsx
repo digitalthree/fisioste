@@ -26,7 +26,7 @@ export const GrigliaServizi: React.FC<GrigliaServiziProps> = ({servizi}) => {
                                         <h2 className="text-3xl font-light">{servizio.name}</h2>
                                         <hr className="border border-primary w-[100px] mt-4"/>
                                         <div className="mt-4">
-                                            <p className="text-justify">
+                                            <p className="text-start">
                                                 {(servizio.description.length > 180) ? servizio.description.substring(0, 180) + '...' : servizio.description}
                                             </p>
                                         </div>
