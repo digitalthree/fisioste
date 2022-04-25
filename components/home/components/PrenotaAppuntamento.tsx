@@ -166,7 +166,6 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = ({servizi
                         <button
                             className='px-8 py-3 w-full rounded-full bg-secondary text-white text-[15px] font-bold mr-7 hover:opacity-80'
                             onClick={() => {
-                                console.log(service, startDate.toLocaleDateString(), name)
                                 inviaEmail()
                             }}
                         >

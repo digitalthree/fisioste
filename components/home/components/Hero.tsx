@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from "next/image";
-import Link from 'next/link'
 
 interface HeroProps {
 }
@@ -20,21 +19,6 @@ export const Hero: React.FC<HeroProps> = ({}) => {
                         data-aos-duration="3000"
                         data-aos-once="true"
                     >Un team di esperti <span className="text-secondary">per te!</span></h1>
-                    {/*<div className="flex flex-col items-center mb-auto w-fit rounded-2xl bg-[#e1edff] p-4 shadow-2xl"
-                         data-aos="flip-right"
-                         data-aos-duration="1000"
-                         data-aos-once="true"
-                         data-aos-delay="3000"
-                    >
-                        <Image src={'/img/home/Fiosioste_Font.webp'} width="200px" height="47px" layout="fixed" alt="Fisioste Logo"/>
-                        <hr className="border border-gray-600 w-[100px] mt-3"/>
-                        <p className="mt-3 font-light text-xl">Un team di esperti <span className="text-secondary">per te!</span></p>
-                        <div className="flex flex-col mt-3">
-                            <Link href="/chiSiamo">
-                                <button className='px-6 py-2 rounded-full w-full mb-4 bg-primary text-white sm:mr-7 hover:opacity-80'>ENTRA IN CONTATTO</button>
-                            </Link>
-                        </div>
-                    </div>*/}
                 </div>
 
             </div>
@@ -69,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
                         <Image src={'/img/home/Fiosioste_Font.webp'} width="277px" height="62px" layout="fixed"
                                alt="Fisioste Logo"/>
                         <hr className="border border-gray-600 w-[100px] mt-6"/>
-                        <p className="mt-6 font-light text-xl">Un team di esperti al <span className="text-secondary">vostro servizio</span>
+                        <p className="mt-6 font-light text-xl">Un team di esperti <span className="text-secondary">per te!</span>
                         </p>
                     </div>
                 </div>

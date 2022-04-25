@@ -14,12 +14,8 @@ export const HeroNews: React.FC<HeroNewsProps> = ({}) => {
                 }}
             >
                 <div className="container m-auto">
-                    <h1 className="text-secondary"><span className="text-black">Leggi i Nostri </span>Articoli</h1>
+                    <h1 className="text-secondary"><span className="text-black">I Nostri </span>Articoli</h1>
                     <hr className="border border-secondary w-[200px] mt-2 mb-4"/>
-                    <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </h2>
                 </div>
             </div>
 
@@ -31,12 +27,8 @@ export const HeroNews: React.FC<HeroNewsProps> = ({}) => {
                  }}
             >
                 <div className="container m-auto">
-                    <h1 className="text-secondary"><span className="text-black">Lieggi i Nostri </span>Articoli</h1>
+                    <h1 className="text-secondary"><span className="text-black">I Nostri </span>Articoli</h1>
                     <hr className="border border-secondary w-[200px] mt-2 mb-4"/>
-                    <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </h2>
                 </div>
             </div>
         </>
