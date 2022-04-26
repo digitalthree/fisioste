@@ -3,7 +3,7 @@ import {fetchServizi} from "../api/servizi";
 import {InferGetStaticPropsType} from "next";
 import {useRouter} from "next/router";
 import {Carosello, CaroselloItem} from "../../components/shared/Carosello";
-import {PrenotaAppuntamento} from "../../components/home/components/PrenotaAppuntamento";
+import {PrenotaAppuntamento} from "../../components/home/components/prenotaAppuntamento/PrenotaAppuntamento";
 import {FactoryServizi} from "../../components/servizi/articoli/FactoryServizi";
 
 export async function getStaticPaths() {

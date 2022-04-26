@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {Hero} from "./components/Hero";
-import {PrenotaAppuntamento} from "./components/PrenotaAppuntamento";
+import {PrenotaAppuntamento} from "./components/prenotaAppuntamento/PrenotaAppuntamento";
 import {SpecialistiBenessere} from "./components/SpecialistiBenessere";
 import {Servizi} from "./components/Servizi";
 import {Servizio} from "../../pages/api/servizi";
