@@ -22,12 +22,12 @@ const Privacy_policy: React.FC<Privacy_policyProps> = ({}) => {
                 Il Titolare non fornisce una lista di tipologie di Dati Personali raccolti.
 
                 Dettagli completi su ciascuna tipologia di dati raccolti sono forniti nelle sezioni dedicate di questa privacy policy o mediante specifici testi informativi visualizzati prima della raccolta dei dati stessi.
-                I Dati Personali possono essere liberamente forniti dall'Utente o, nel caso di Dati di Utilizzo, raccolti automaticamente durante l'uso di questa Applicazione.
+                I Dati Personali possono essere liberamente forniti dall&apos;Utente o, nel caso di Dati di Utilizzo, raccolti automaticamente durante l&apos;uso di questa Applicazione.
                 Se non diversamente specificato, tutti i Dati richiesti da questa Applicazione sono obbligatori. Se l’Utente rifiuta di comunicarli, potrebbe essere impossibile per questa Applicazione fornire il Servizio. Nei casi in cui questa Applicazione indichi alcuni Dati come facoltativi, gli Utenti sono liberi di astenersi dal comunicare tali Dati, senza che ciò abbia alcuna conseguenza sulla disponibilità del Servizio o sulla sua operatività.
                 Gli Utenti che dovessero avere dubbi su quali Dati siano obbligatori, sono incoraggiati a contattare il Titolare.
-                L’eventuale utilizzo di Cookie - o di altri strumenti di tracciamento - da parte di questa Applicazione o dei titolari dei servizi terzi utilizzati da questa Applicazione, ove non diversamente precisato, ha la finalità di fornire il Servizio richiesto dall'Utente, oltre alle ulteriori finalità descritte nel presente documento e nella Cookie Policy, se disponibile.
+                L’eventuale utilizzo di Cookie - o di altri strumenti di tracciamento - da parte di questa Applicazione o dei titolari dei servizi terzi utilizzati da questa Applicazione, ove non diversamente precisato, ha la finalità di fornire il Servizio richiesto dall&apos;Utente, oltre alle ulteriori finalità descritte nel presente documento e nella Cookie Policy, se disponibile.
 
-                L'Utente si assume la responsabilità dei Dati Personali di terzi ottenuti, pubblicati o condivisi mediante questa Applicazione e garantisce di avere il diritto di comunicarli o diffonderli, liberando il Titolare da qualsiasi responsabilità verso terzi.
+                L&apos;Utente si assume la responsabilità dei Dati Personali di terzi ottenuti, pubblicati o condivisi mediante questa Applicazione e garantisce di avere il diritto di comunicarli o diffonderli, liberando il Titolare da qualsiasi responsabilità verso terzi.
 
                 <h2 className="text-secondary text-[25px] mb-2 mt-8">Modalità e luogo del trattamento dei Dati raccolti</h2>
 
@@ -43,9 +43,9 @@ const Privacy_policy: React.FC<Privacy_policyProps> = ({}) => {
                 Il Titolare tratta Dati Personali relativi all’Utente in caso sussista una delle seguenti condizioni:
 
                 l’Utente ha prestato il consenso per una o più finalità specifiche; Nota: in alcuni ordinamenti il Titolare può essere autorizzato a trattare Dati Personali senza che debba sussistere il consenso dell’Utente o un’altra delle basi giuridiche specificate di seguito, fino a quando l’Utente non si opponga (“opt-out”) a tale trattamento. Ciò non è tuttavia applicabile qualora il trattamento di Dati Personali sia regolato dalla legislazione europea in materia di protezione dei Dati Personali;
-                il trattamento è necessario all'esecuzione di un contratto con l’Utente e/o all'esecuzione di misure precontrattuali;
+                il trattamento è necessario all&apos;esecuzione di un contratto con l’Utente e/o all&apos;esecuzione di misure precontrattuali;
                 il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il Titolare;
-                il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o per l'esercizio di pubblici poteri di cui è investito il Titolare;
+                il trattamento è necessario per l&apos;esecuzione di un compito di interesse pubblico o per l&apos;esercizio di pubblici poteri di cui è investito il Titolare;
                 il trattamento è necessario per il perseguimento del legittimo interesse del Titolare o di terzi.
 
                 È comunque sempre possibile richiedere al Titolare di chiarire la concreta base giuridica di ciascun trattamento ed in particolare di specificare se il trattamento sia basato sulla legge, previsto da un contratto o necessario per concludere un contratto.
@@ -72,7 +72,7 @@ const Privacy_policy: React.FC<Privacy_policyProps> = ({}) => {
                 Quando il trattamento è basato sul consenso dell’Utente, il Titolare può conservare i Dati Personali più a lungo sino a quando detto consenso non venga revocato. Inoltre, il Titolare potrebbe essere obbligato a conservare i Dati Personali per un periodo più lungo in ottemperanza ad un obbligo di legge o per ordine di un’autorità.
 
                 Al termine del periodo di conservazione i Dati Personali saranno cancellati. Pertanto, allo spirare di tale termine il diritto di accesso, cancellazione, rettificazione ed il diritto alla portabilità dei Dati non potranno più essere esercitati.
-                <h2 className="text-secondary text-[25px] mb-2 mt-8">Diritti dell'Utente</h2>
+                <h2 className="text-secondary text-[25px] mb-2 mt-8">Diritti dell&apos;Utente</h2>
 
                 Gli Utenti possono esercitare determinati diritti con riferimento ai Dati trattati dal Titolare.
 
@@ -103,13 +103,13 @@ const Privacy_policy: React.FC<Privacy_policyProps> = ({}) => {
                 <h2 className="text-secondary text-[20px] mt-2">Difesa in giudizio</h2>
 
 
-                I Dati Personali dell’Utente possono essere utilizzati da parte del Titolare in giudizio o nelle fasi preparatorie alla sua eventuale instaurazione per la difesa da abusi nell'utilizzo di questa Applicazione o dei Servizi connessi da parte dell’Utente.
+                I Dati Personali dell’Utente possono essere utilizzati da parte del Titolare in giudizio o nelle fasi preparatorie alla sua eventuale instaurazione per la difesa da abusi nell&apos;utilizzo di questa Applicazione o dei Servizi connessi da parte dell’Utente.
                 L’Utente dichiara di essere consapevole che il Titolare potrebbe essere obbligato a rivelare i Dati per ordine delle autorità pubbliche.
 
                 <h2 className="text-secondary text-[20px] mt-2">Informative specifiche</h2>
 
 
-                Su richiesta dell’Utente, in aggiunta alle informazioni contenute in questa privacy policy, questa Applicazione potrebbe fornire all'Utente delle informative aggiuntive e contestuali riguardanti Servizi specifici, o la raccolta ed il trattamento di Dati Personali.
+                Su richiesta dell’Utente, in aggiunta alle informazioni contenute in questa privacy policy, questa Applicazione potrebbe fornire all&apos;Utente delle informative aggiuntive e contestuali riguardanti Servizi specifici, o la raccolta ed il trattamento di Dati Personali.
 
                 <h2 className="text-secondary text-[20px] mt-2">Log di sistema e manutenzione</h2>
 
@@ -124,7 +124,7 @@ const Privacy_policy: React.FC<Privacy_policyProps> = ({}) => {
                 <h2 className="text-secondary text-[20px] mt-2">Risposta alle richieste “Do Not Track”</h2>
 
                 Questa Applicazione non supporta le richieste “Do Not Track”.
-                Per scoprire se gli eventuali servizi di terze parti utilizzati le supportino, l'Utente è invitato a consultare le rispettive privacy policy.
+                Per scoprire se gli eventuali servizi di terze parti utilizzati le supportino, l&apos;Utente è invitato a consultare le rispettive privacy policy.
 
                 <h2 className="text-secondary text-[20px] mt-2">Modifiche a questa privacy policy</h2>
 
