@@ -33,15 +33,8 @@ export const Newsletter: React.FC<NewsletterProps> = ({}) => {
 
 
     return(
-        <div className="flex flex-col py-16"
-             style={{
-                 backgroundImage: "url(/img/home/newsletter1.webp)",
-                 backgroundRepeat: "no-repeat",
-                 backgroundSize: "700px",
-                 backgroundPosition: "0 100px"
-             }}
-        >
-            <div className="container m-auto text-center"
+
+            <div className="container m-auto text-center py-20"
                  data-aos="zoom-in"
                  data-aos-duration="1500"
                  data-aos-once="true"
@@ -55,7 +48,7 @@ export const Newsletter: React.FC<NewsletterProps> = ({}) => {
                         Puoi annullare l'iscrizione in qualsiasi momento.
                     </h2>
 
-                    <div className="flex-col sm:flex sm:flex-row sm:justify-center py-12 sm:py-36">
+                    <div className="flex-col sm:flex sm:flex-row sm:justify-center pt-12 sm:pt-36">
                         <div className="w-full sm:w-[350px] mb-6 sm:mb-0 sm:mr-10">
                             <input className="appearance-none rounded-full w-full px-8 py-3 text-sm bg-[#e8e8e8] text-secondary focus:outline-none"
                                    type="text"
@@ -76,7 +69,6 @@ export const Newsletter: React.FC<NewsletterProps> = ({}) => {
 
                 </div>
             </div>
-        </div>
     )
 
 }

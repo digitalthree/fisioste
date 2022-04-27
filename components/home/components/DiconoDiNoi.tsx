@@ -8,14 +8,7 @@ interface DiconoDiNoiProps {
 
 export const DiconoDiNoi: React.FC<DiconoDiNoiProps> = ({}) => {
     return (
-        <div className="bg-[#d8e8ff] flex flex-col py-16"
-             style={{
-                 backgroundImage: "url(/img/home/diconodinoi1.webp)",
-                 backgroundRepeat: "no-repeat",
-                 backgroundPosition: "90%",
-                 backgroundSize: "auto",
-             }}
-        >
+        <div className="bg-[#d8e8ff] flex flex-col py-16">
             <div className="container m-auto">
                 <div>
                     <div
