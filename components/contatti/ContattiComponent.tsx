@@ -24,9 +24,9 @@ export const ContattiComponent: React.FC<ContattiComponentProps> = ({}) => {
                     <FormContatti/>
                 </div>
 
-                <hr className="border-t border-gray-300 w-full mb-10 mt-10"/>
+                {/*<hr className="border-t border-gray-300 w-full mb-10 mt-10"/>
 
-                <SocialElements/>
+                <SocialElements/>*/}
 
             </div>
         </>
