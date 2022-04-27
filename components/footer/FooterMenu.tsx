@@ -11,31 +11,31 @@ export const FooterMenu: React.FC<FooterMenuProps> = ({}) => {
             <div className="flex flex-col">
                 <Link href="/">
                     <span
-                        className="text-primary font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
+                        className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
                         Home
                     </span>
                 </Link>
                 <Link href="/chiSiamo">
                     <span
-                        className="text-primary font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
+                        className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
                         Chi siamo
                     </span>
                 </Link>
                 <Link href="/servizi">
                     <span
-                        className="text-primary font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
+                        className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
                         Servizi
                     </span>
                 </Link>
                 <Link href="/news">
                     <span
-                        className="text-primary font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
+                        className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
                         News
                     </span>
                 </Link>
                 <Link href="/contatti">
                     <span
-                        className="text-primary font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
+                        className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
                         Contatti
                     </span>
                 </Link>
