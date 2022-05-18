@@ -20,9 +20,10 @@ export const HomePage: FC<HomePageProps> = ({servizi}) => {
             <PrenotaAppuntamento servizi={servizi}/>
             <SpecialistiBenessere/>
             <Servizi servizi={servizi}/>
-            <LeNostreConvenzioni/>
+
             <DiconoDiNoi/>
-            <Newsletter/>
+            <LeNostreConvenzioni/>
+            {/*<Newsletter/>*/}
         </>
     )
 

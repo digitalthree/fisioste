@@ -8,7 +8,10 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
     return(
         <div className="w-full bg-[#e1edff] pt-16 pb-16 flex justify-center">
             <div className="container text-center">
-                <h1 className="text-black">Specialisti del <span className="text-secondary">benessere</span></h1>
+                <h1 className="text-black">
+                    {/*Specialisti del <span className="text-secondary">benessere</span>*/}
+                    a differenza degli altri le nostre specializzazioni sono
+                </h1>
                 <div className="grid lg:grid-cols-3 lg:gap-32 mt-16 ">
                     <div className="flex flex-col justify-between items-center mb-28 lg:mb-0"
                          data-aos="fade-up"

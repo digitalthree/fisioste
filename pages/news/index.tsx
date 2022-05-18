@@ -1,7 +1,6 @@
 import type {InferGetStaticPropsType} from 'next'
 import React from "react";
 import {fetchNews} from "../api/news";
-import Link from 'next/link'
 import {HeroNews} from "../../components/news/components/HeroNews";
 import {GrigliaNews} from "../../components/news/components/GrigliaNews";
 
@@ -16,6 +15,7 @@ export async function getStaticProps() {
         revalidate: 10, // In seconds
     }
 }
+
 
 const News = ({news}: InferGetStaticPropsType<typeof getStaticProps>) => {
     return (

@@ -9,7 +9,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "react-datepicker/dist/react-datepicker.css";
 import 'aos/dist/aos.css';
 import {useEffect} from "react";
-import CookieConsent, {getCookieConsentValue, resetCookieConsentValue} from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
+import FloatingWhatsApp from 'react-floating-whatsapp'
 
 
 function MyApp({Component, pageProps}: AppProps) {
@@ -28,6 +29,18 @@ function MyApp({Component, pageProps}: AppProps) {
             </Head>
             <Navbar/>
             <Component {...pageProps} />
+            <div className="hidden md:flex">
+                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'3288349050'} avatar="/favicon.ico"
+                                   placeholder="Scrivi..." chatMessage="Ciao, come possiamo aiutarti?"
+                                   statusMessage="Disponibile" className="z-50"
+                />
+            </div>
+            <div className="md:hidden">
+                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'3288349050'} avatar="/favicon.ico"
+                                   placeholder="Scrivi..." chatMessage="Ciao, come possiamo aiutarti?"
+                                   statusMessage="Disponibile" className="z-50" styles={{bottom: '4.2rem', right: "1rem"}}
+                />
+            </div>
             <CookieConsent
                 location="bottom"
                 buttonText="Accetta"

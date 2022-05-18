@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react';
-import {Carousel} from "react-responsive-carousel";
-import {FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight} from "react-icons/fa";
+import React, {useState} from 'react';
 import {Servizio} from "../../../pages/api/servizi";
 import {Carosello, CaroselloItem} from "../../shared/Carosello";
+import VisibilitySensor from 'react-visibility-sensor';
+import CountUp from "react-countup";
 
 interface ServiziProps {
     servizi: Servizio[]
@@ -21,19 +21,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
     })
 
     return (
-        <div className="container m-auto flex flex-col justify-start py-6">
-            <div className="flex flex-col w-full lg:w-2/3 text-center lg:text-left items-center lg:items-start"
-                 data-aos="zoom-out"
-                 data-aos-duration="1000"
-                 data-aos-once="true"
-            >
-                <h1 className="mb-2 text-secondary">Esperienza, empatia, fiducia</h1>
-                <hr className="border border-secondary w-[100px] mb-5"/>
-                <h2>
-                    Scegliere i migliori professionisti per la cura di se stessi è difficile, ma non impossibile se le
-                    conoscenze tecniche diventato un tutt’uno con passione, empatia e attenzione al paziente.
-                </h2>
-            </div>
+        <div className="container m-auto flex flex-col py-6">
             <div>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16"
                      data-aos="zoom-in"
@@ -54,6 +42,72 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                         </div>
                     </div>
                     <Carosello data={itemsCarosello}/>
+                </div>
+                <div
+                    className="flex flex-col w-full text-center items-center mt-20"
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    data-aos-once="true"
+                >
+                    <h1 className="mb-2 text-secondary">Esperienza, empatia, fiducia</h1>
+                    <hr className="border border-secondary w-[100px] mb-5"/>
+
+                </div>
+                <div className="grid md:grid-cols-3 py-20 gap-20">
+                    <div className="flex flex-col items-center"
+                         data-aos="zoom-in"
+                         data-aos-duration="1000"
+                         data-aos-once="true"
+                    >
+                        <div
+                            className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
+                            <CountUp end={100} duration={3}>
+                                {({countUpRef, start}) => (
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <span className="text-5xl text-white" ref={countUpRef} />
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        </div>
+                        <h2 className="mt-10 text-center">Pazienti trattati nel 2022</h2>
+                    </div>
+
+                    <div className="flex flex-col items-center"
+                         data-aos="zoom-in"
+                         data-aos-duration="1000"
+                         data-aos-once="true"
+                         data-aos-delay="250"
+                    >
+                        <div
+                            className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
+                            <CountUp end={8} duration={3}>
+                                {({countUpRef, start}) => (
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <span className="text-5xl text-white" ref={countUpRef} />
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        </div>
+                        <h2 className="mt-10 text-center">Terapie erogate</h2>
+                    </div>
+                    <div className="flex flex-col items-center"
+                         data-aos="zoom-in"
+                         data-aos-duration="1000"
+                         data-aos-once="true"
+                         data-aos-delay="250"
+                    >
+                        <div
+                            className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
+                            <CountUp end={4} duration={3}>
+                                {({countUpRef, start}) => (
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <span className="text-5xl text-white" ref={countUpRef} />
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        </div>
+                        <h2 className="mt-10 text-center">Membri del team</h2>
+                    </div>
                 </div>
             </div>
         </div>
