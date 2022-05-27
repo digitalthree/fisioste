@@ -30,7 +30,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({}) => {
                 <Link href="/news">
                     <div className="flex flex-col items-center ">
                         <FaNewspaper size="25px" color="#5972b4"/>
-                        <span>News</span>
+                        <span>Blog</span>
                     </div>
                 </Link>
                 <Link href="/contatti">

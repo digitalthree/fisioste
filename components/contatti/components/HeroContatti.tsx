@@ -9,7 +9,7 @@ export const HeroContatti: React.FC<HeroContattiProps> = ({}) => {
             <div
                 className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
                 style={{
-                    backgroundImage: "url('/img/contatti/contact-banner.png')",
+                    backgroundImage: "url('/img/news/banner.png')",
                     backgroundSize: "cover",
                 }}
             >

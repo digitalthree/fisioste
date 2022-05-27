@@ -9,7 +9,7 @@ interface GrigliaServiziProps {
 export const GrigliaServizi: React.FC<GrigliaServiziProps> = ({servizi}) => {
     return(
         <>
-            <div className="container py-20 m-auto grid lg:grid-cols-3 gap-16">
+            <div className="container pb-20 md:pt-10 m-auto grid lg:grid-cols-3 gap-16">
                 {servizi.map(servizio => {
                     return(
                         <Link key={servizio.id} href={`/servizi/${servizio.id}`}>

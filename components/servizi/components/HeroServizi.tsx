@@ -7,12 +7,12 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
     return (
         <>
             <div
-                className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
-                style={{
+                className="h-[40vh] bg-gradient-to-t from-white to-[#d9e8ff] flex justify-start"
+                /*style={{
                     backgroundImage: "url('/img/servizi/banner.png')",
                     backgroundSize: "cover",
                     backgroundPositionY: "50%",
-                }}
+                }}*/
             >
                 <div className="container m-auto">
                     <h1 className="text-secondary"><span className="text-black">I Nostri </span>Servizi</h1>
@@ -25,7 +25,7 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
             </div>
 
 
-            <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
+            {/*<div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
                  style={{
                      backgroundImage: "url('/img/servizi/banner.png')",
                      backgroundSize: "cover",
@@ -39,7 +39,7 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
                         le conoscenze tecniche diventato un tutt’uno con passione, empatia e attenzione al paziente.
                     </h2>
                 </div>
-            </div>
+            </div>*/}
         </>
     )
 

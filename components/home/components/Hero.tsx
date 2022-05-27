@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
                      backgroundImage: "url('/img/home/hero.webp')",
                      backgroundSize: '1700px',
                      backgroundPositionX: '50%',
-                     backgroundPositionY: '22%',
+                     backgroundPositionY: '15%',
                  }}
             >
                 <div className="container justify-center mt-0 lg:mx-auto hidden lg:flex">

@@ -90,7 +90,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                                 <span
                                     className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
                                     style={{fontWeight: router.pathname === "/news" ? 900 : 400, color: router.pathname === "/news" ? '#264193' : ''}}
-                                >News</span>
+                                >Blog</span>
                             </Link>
                             <Link href="/contatti">
                                 <span

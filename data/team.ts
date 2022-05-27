@@ -3,15 +3,19 @@ export interface TeamMember {
     nome: string,
     professione: string,
     imgUrl: string,
+    specializzazioni: string[]
     bio: string
 }
 
 export const teamMembers: TeamMember[] = [
     {
         id:1,
-        nome: 'Stefano',
+        nome: 'Stefano Luciani',
         professione: "Fisoterapista - Ospeopata",
         imgUrl: "/img/chisiamo/stef.png",
+        specializzazioni: [
+            "Fisioterapia", "Osteopatia", "Trattamento disturbi temporomandibolari"
+        ],
         bio: "Stefano Luciani FISIOTERAPISTA OSTEOPATA\n" +
             "Nato a Teramo il 19/04/1984 titolare dello studio di Fisioterapia e Osteopatia FISIOSTE.\n" +
             "Ho iniziato la professione di Fisioterapista nel 2006, al 2° anno di Università, seguendo il settore giovanile del Teramo Calcio. Nel 2008 mi sono laureato presso l’Universita dell’Aquila e ho iniziato la mia avventura con l’Ascoli Calcio in serie B.\n" +
@@ -28,9 +32,16 @@ export const teamMembers: TeamMember[] = [
     },
     {
         id:2,
-        nome: 'Valentina',
+        nome: 'Valentina Di Tommaso',
         professione: "Fisoterapista",
         imgUrl: "/img/chisiamo/Vale.png",
+        specializzazioni: [
+            "Riabilitazione del pavimento pelvico",
+            "Ginnastica ipopressiva",
+            "Trattamento endometriosi",
+            "Trattamento diastasi addominale",
+            "Riabilitazione pre e post parto",
+        ],
         bio: "Valentina Di Tommaso, FISIOTERAPISTA, nata il 26/05/1993 a Civita Castellana ( Vt).\n" +
             "Nel 2016 , terminato il percorso di studi presso l’università di Chieti, conseguo la laurea in fisioterapia con lode.\n" +
             "Nel 2017, a Teramo, inizia la mia esperienza lavorativa nello studio di fisioterapia e osteopatia FISIOSTE.\n" +
@@ -43,9 +54,15 @@ export const teamMembers: TeamMember[] = [
     },
     {
         id:3,
-        nome: 'Sara',
+        nome: 'Sara Barone',
         professione: "Fisoterapista",
         imgUrl: "/img/chisiamo/sara.png",
+        specializzazioni: [
+            "Trattamento viso",
+            "Linfodrenaggio vodder",
+            "Trattamento smagliature",
+            "Trattamento cellulite"
+        ],
         bio: "Sara Barone, fisioterapista,nata a Roma il 28/02/1992.\n" +
             "Ho conseguito la Laurea presso l’Università degli studi di Roma di Tor Vergata nel 2016. Lo stesso anno ha avuto inizio il mio percorso professionale, lavorando nella mia città natale presso centri convenzionati e studi privati.\n" +
             "Nel 2019 mi trasferisco nella provincia di Teramo e nel Gennaio 2020, dopo aver conosciuto Stefano, ha avuto inizio la mia collaborazione professionale presso lo studio Fisioste.\n" +
@@ -59,6 +76,7 @@ export const teamMembers: TeamMember[] = [
         nome: 'Francesca',
         professione: "Assistant Manager",
         imgUrl: "/img/chisiamo/fra.png",
+        specializzazioni: [],
         bio: "Francesca Antonini, Assistant Manager,nata il 31/01/1994 ad Ascoli Piceno.\n" +
             "Il mio percorso di studi inizia all’Università degli studi di Teramo dove nel 2017 ottengo una laurea triennale e a Marzo 2020, nel pieno della pandemia concludo una laurea magistrale in scienze delle amministrazioni con 110 lode.\n" +
             "Durante l’estate del 2020, inizio il corso di formazione di ASSISTANT MANAGER, organizzato per personale di studio medico, l’ho superato e sono stata scelta da Fisioste.\n" +

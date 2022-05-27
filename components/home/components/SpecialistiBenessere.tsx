@@ -1,16 +1,17 @@
 import React from 'react';
 import Image from "next/image";
+import Link from "next/link";
 
 interface SpecialistiBenessereProps {
 }
 
 export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) => {
-    return(
+    return (
         <div className="w-full bg-[#e1edff] pt-16 pb-16 flex justify-center">
             <div className="container text-center">
-                <h1 className="text-black">
+                <h1 className="text-secondary">
                     {/*Specialisti del <span className="text-secondary">benessere</span>*/}
-                    a differenza degli altri le nostre specializzazioni sono
+                    Siamo specializzati certificati in
                 </h1>
                 <div className="grid lg:grid-cols-3 lg:gap-32 mt-16 ">
                     <div className="flex flex-col justify-between items-center mb-28 lg:mb-0"
@@ -18,7 +19,8 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                          data-aos-duration="1000"
                          data-aos-once="true"
                     >
-                        <Image src={'/img/home/colonna.webp'} width="130px" height="130px" layout="fixed" alt="Fisioste colonna"/>
+                        <Image src={'/img/home/colonna.webp'} width="130px" height="130px" layout="fixed"
+                               alt="Fisioste colonna"/>
                         <h2 className="text-[25px] text-secondary">Clinica della colonna</h2>
                         <div className="p-5 rounded-2xl bg-white mt-3">
                             <p className="text-secondary">
@@ -27,7 +29,12 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 stress, artrosi.
                             </p>
                         </div>
-                        <button className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI DI PIU</button>
+                        <Link href="/servizi/8" passHref>
+                            <button
+                                className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
+                                DI PIU
+                            </button>
+                        </Link>
                     </div>
                     <div className="flex flex-col justify-between items-center mb-28 lg:mb-0"
                          data-aos="fade-up"
@@ -35,7 +42,8 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                          data-aos-delay="500"
                          data-aos-once="true"
                     >
-                        <Image src={'/img/home/fisioestetica.webp'} width="130px" height="130px" layout="fixed" alt="Fisioste fisioestetica"/>
+                        <Image src={'/img/home/fisioestetica.webp'} width="130px" height="130px" layout="fixed"
+                               alt="Fisioste fisioestetica"/>
                         <h2 className="text-[25px] text-secondary">Fisioestetica dermatofunzionale</h2>
                         <div className="p-5 rounded-2xl bg-white mt-3">
                             <p className="text-secondary">
@@ -43,14 +51,20 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 smagliature dimagrimento, gambe gonfie e pesanti.
                             </p>
                         </div>
-                        <button className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white hover:opacity-80'>SCOPRI DI PIU</button>
+                        <Link href="/servizi/2" passHref>
+                            <button
+                                className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
+                                DI PIU
+                            </button>
+                        </Link>
                     </div>
                     <div className="flex flex-col justify-between items-center"
                          data-aos="fade-up"
                          data-aos-duration="1000"
                          data-aos-once="true"
                     >
-                        <Image src={'/img/home/tendinopatie.webp'} width="130px" height="130px" layout="fixed" alt="Fisioste tendinopatie"/>
+                        <Image src={'/img/home/tendinopatie.webp'} width="130px" height="130px" layout="fixed"
+                               alt="Fisioste tendinopatie"/>
                         <h2 className="text-[25px] text-secondary">Clinica delle tendinopatie</h2>
                         <div className="p-5 rounded-2xl bg-white mt-3">
                             <p className="text-secondary">
@@ -58,7 +72,12 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 vita quotidiana che in quella sportiva.
                             </p>
                         </div>
-                        <button className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white hover:opacity-80'>SCOPRI DI PIU</button>
+                        <Link href="/news/4" passHref>
+                            <button
+                                className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
+                                DI PIU
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

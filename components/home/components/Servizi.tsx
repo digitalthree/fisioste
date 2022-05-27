@@ -61,7 +61,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                     >
                         <div
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
-                            <CountUp end={100} duration={3}>
+                            <CountUp end={1250} duration={3}>
                                 {({countUpRef, start}) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span className="text-5xl text-white" ref={countUpRef} />
@@ -69,7 +69,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                                 )}
                             </CountUp>
                         </div>
-                        <h2 className="mt-10 text-center">Pazienti trattati nel 2022</h2>
+                        <h2 className="mt-10 text-center">Prestazioni erogate</h2>
                     </div>
 
                     <div className="flex flex-col items-center"
@@ -80,7 +80,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                     >
                         <div
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
-                            <CountUp end={8} duration={3}>
+                            <CountUp end={150} duration={3}>
                                 {({countUpRef, start}) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span className="text-5xl text-white" ref={countUpRef} />
@@ -88,7 +88,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                                 )}
                             </CountUp>
                         </div>
-                        <h2 className="mt-10 text-center">Terapie erogate</h2>
+                        <h2 className="mt-10 text-center">Nuovi pazienti</h2>
                     </div>
                     <div className="flex flex-col items-center"
                          data-aos="zoom-in"
@@ -98,7 +98,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                     >
                         <div
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
-                            <CountUp end={4} duration={3}>
+                            <CountUp end={5} duration={3}>
                                 {({countUpRef, start}) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span className="text-5xl text-white" ref={countUpRef} />
@@ -106,7 +106,7 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                                 )}
                             </CountUp>
                         </div>
-                        <h2 className="mt-10 text-center">Membri del team</h2>
+                        <h2 className="mt-10 text-center">Dipendenti</h2>
                     </div>
                 </div>
             </div>

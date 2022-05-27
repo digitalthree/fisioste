@@ -7,7 +7,7 @@ export const HeroChiSiamo: React.FC<HeroChiSiamoProps> = ({}) => {
     return (
         <>
             <div
-                className="flex justify-start pt-10"
+                className="h-[30vh] bg-gradient-to-t from-white to-[#d8e8ff] flex justify-start"
                 /*style={{
                     backgroundImage: "url('/img/chisiamo/team_banner.png')",
                     backgroundSize: "cover",

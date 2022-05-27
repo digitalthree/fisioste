@@ -67,6 +67,19 @@ export const TeamCards: React.FC<TeamCardsProps> = ({team}) => {
                                 {/*body*/}
                                 <div className="relative p-6 flex-auto h-[400px] overflow-scroll lg:h-full lg:overflow-hidden">
                                     <p className="text-slate-500 text-lg text-secondary leading-relaxed">
+                                        {selectedMember.specializzazioni.length > 0 &&
+                                            <div>
+                                                <h3>SPECIALIZZAZIONI:</h3>
+                                                <ul className="list-disc ml-10">
+                                                    {selectedMember.specializzazioni.map(s => {
+                                                        return <li key={s}>{s}</li>
+                                                    })}
+                                                </ul>
+                                                <hr className="mt-5 mb-5"/>
+
+                                            </div>
+                                        }
+
                                         {selectedMember.bio}
                                     </p>
                                 </div>

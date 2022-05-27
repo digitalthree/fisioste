@@ -16,7 +16,17 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
         {id: 4, imgUrl: '/img/convenzioni/conv4.jpg', width: '250px', height: '150px', alt: 'cnvenzione 4'},
         {id: 5, imgUrl: '/img/convenzioni/conv5.jpg', width: '250px', height: '150px', alt: 'cnvenzione 5'},
         {id: 6, imgUrl: '/img/convenzioni/conv6.jpg', width: '250px', height: '150px', alt: 'cnvenzione 6'},
-        {id: 7, imgUrl: '/img/convenzioni/conv7.jpg', width: '300px', height: '93px', alt: 'cnvenzione 7'},
+        {id: 7, imgUrl: '/img/convenzioni/conv7.jpg', width: '250px', height: '150px', alt: 'cnvenzione 7'},
+        {id: 8, imgUrl: '/img/convenzioni/conv8.jpg', width: '250px', height: '150px', alt: 'cnvenzione 8'},
+        {id: 9, imgUrl: '/img/convenzioni/conv9.jpg', width: '250px', height: '150px', alt: 'cnvenzione 9'},
+        {id: 10, imgUrl: '/img/convenzioni/conv10.jpg', width: '250px', height: '150px', alt: 'cnvenzione 10'},
+        {id: 11, imgUrl: '/img/convenzioni/conv11.jpg', width: '250px', height: '150px', alt: 'cnvenzione 11'},
+        {id: 12, imgUrl: '/img/convenzioni/conv12.jpg', width: '250px', height: '150px', alt: 'cnvenzione 12'},
+        {id: 13, imgUrl: '/img/convenzioni/conv13.jpg', width: '250px', height: '150px', alt: 'cnvenzione 13'},
+        {id: 14, imgUrl: '/img/convenzioni/conv14.jpg', width: '250px', height: '150px', alt: 'cnvenzione 14'},
+        {id: 15, imgUrl: '/img/convenzioni/conv15.jpg', width: '250px', height: '150px', alt: 'cnvenzione 15'},
+        {id: 16, imgUrl: '/img/convenzioni/conv16.jpg', width: '250px', height: '150px', alt: 'cnvenzione 16'},
+
     ]
 
     let convenzioniPrimaRiga = data.filter(d => d.id < 5)
@@ -69,7 +79,7 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
                      data-aos-duration="1000"
                      data-aos-once="true"
                 >
-                    {convenzioniPrimaRiga.map(item => {
+                    {data.map(item => {
                         return(
                             <div key={item.id} className="flex items-center justify-center h-full">
                                 <Image
@@ -83,7 +93,7 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
                         )
                     })}
                 </div>
-                <div className="grid md:grid-cols-3 md:gap-20"
+                {/*<div className="grid md:grid-cols-3 md:gap-20"
                      data-aos="zoom-in"
                      data-aos-duration="1000"
                      data-aos-once="true"
@@ -101,7 +111,7 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
                             </div>
                         )
                     })}
-                </div>
+                </div>*/}
                 <h2 className="text-center md:mt-20 mt-10"
                     data-aos="zoom-in"
                     data-aos-duration="1000"
