@@ -10,7 +10,7 @@ interface ServiziProps {
 
 export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
 
-    let itemsCarosello: CaroselloItem[] = servizi.map(s => {
+    let itemsCarosello: CaroselloItem[] = servizi.filter(s => s.description !== '').map(s => {
         return {
             id: s.id,
             imgUrl: s.imgUrl,
@@ -30,12 +30,12 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                 >
                     <div className="p-6 rounded-2xl bg-[#e1edff] hidden lg:flex">
                         <div className="flex flex-col">
-                            <h2 className="text-2xl xl:text-[25px] mb-5 text-primary">Tutti i Servizi</h2>
-                            <ul className="ml-10">
+                            <h2 className="text-2xl xl:text-[25px] mb-2 text-primary">Tutti i Servizi</h2>
+                            <ul className="ml-5">
                                 {servizi.map(servizio => {
                                     return (
                                         <li key={servizio.id}
-                                            className="text-base xl:text-[14px] mb-4">{servizio.name}</li>
+                                            className="text-base xl:text-[14px] mb-2">{servizio.name}</li>
                                     )
                                 })}
                             </ul>

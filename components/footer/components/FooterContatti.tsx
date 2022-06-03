@@ -26,7 +26,7 @@ export const FooterContatti: React.FC<FooterContattiProps> = ({}) => {
                        alt="Fisioste pin"/>
                 <div className="flex flex-col">
                     <a className="text-secondary mt-4 ml-4 text-sm text-center lg:text-base font-light hover:underline" rel="noreferrer"
-                       target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza,<br/> 29
+                       target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza,<br/> 29/a
                         64100 Teramo</a>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export const FooterContatti: React.FC<FooterContattiProps> = ({}) => {
                 <div className="flex flex-col">
                                     <span className="text-secondary mt-4 ml-4 text-sm text-center lg:text-base font-light"
                                     >
-                                        Lun-Ven / 9:00 - 19:00
+                                        Lun-Ven / 9:00 - 20:00
                                     </span>
                 </div>
             </div>

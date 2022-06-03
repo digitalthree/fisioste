@@ -42,7 +42,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                             <Image src={'/img/clock1.png'} width="50px" height="50px" layout="fixed" alt="Fisioste clock"/>
                             <div className="flex flex-col ml-4">
                                 <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Orari</h3>
-                                <p className="text-secondary text-[14px] font-light">Lun - Ven 9:00-19:00</p>
+                                <p className="text-secondary text-[14px] font-light">Lun - Ven 9:00-20:00</p>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                             <Image src={'/img/pin1.png'} width="50px" height="50px" layout="intrinsic" alt="Fisioste pin"/>
                             <div className="flex flex-col ml-4">
                                 <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Vieni a trovarci</h3>
-                                <a className="text-secondary text-[14px] font-light hover:underline" rel="noreferrer" target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza, 29 64100 Teramo</a>
+                                <a className="text-secondary text-[14px] font-light hover:underline" rel="noreferrer" target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza, 29/a 64100 Teramo</a>
                             </div>
                         </div>
                     </div>

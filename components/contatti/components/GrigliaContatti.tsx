@@ -47,7 +47,7 @@ export const GrigliaContatti: React.FC<GrigliaContattiProps> = ({}) => {
                     <h2 className="text-[25px] text-secondary mt-4">Indirizzo</h2>
                     <a className="text-secondary text-center text-base xl:text-[18px] font-light hover:underline"
                        rel="noreferrer"
-                       target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza,<br/> 29
+                       target="_blank" href="https://g.page/Fisioste?share">Viale della Resistenza,<br/> 29/a
                         64100 Teramo</a>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export const GrigliaContatti: React.FC<GrigliaContattiProps> = ({}) => {
                 <div className="flex flex-col text-center">
                     <h2 className="text-[25px] text-secondary mt-4">Orari</h2>
                     <span className="text-secondary text-base xl:text-[18px] font-light"
-                    >Lun-Ven / 9:00 - 19:00</span>
+                    >Lun-Ven / 9:00 - 20:00</span>
                 </div>
             </div>
         </div>

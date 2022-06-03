@@ -11,9 +11,9 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
             <div className="container text-center">
                 <h1 className="text-secondary">
                     {/*Specialisti del <span className="text-secondary">benessere</span>*/}
-                    Siamo specializzati certificati in
+                    Siamo specializzati in
                 </h1>
-                <div className="grid lg:grid-cols-3 lg:gap-32 mt-16 ">
+                <div className="lg:grid lg:grid-cols-2 lg:gap-16 mt-16 ">
                     <div className="flex flex-col justify-between items-center mb-28 lg:mb-0"
                          data-aos="fade-up"
                          data-aos-duration="1000"
@@ -29,7 +29,7 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 stress, artrosi.
                             </p>
                         </div>
-                        <Link href="/servizi/8" passHref>
+                        <Link href="/#" passHref>
                             <button
                                 className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
                                 DI PIU
@@ -58,7 +58,7 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                             </button>
                         </Link>
                     </div>
-                    <div className="flex flex-col justify-between items-center"
+                    <div className="flex flex-col justify-between items-center mb-28 lg:mb-0"
                          data-aos="fade-up"
                          data-aos-duration="1000"
                          data-aos-once="true"
@@ -66,6 +66,27 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                         <Image src={'/img/home/tendinopatie.webp'} width="130px" height="130px" layout="fixed"
                                alt="Fisioste tendinopatie"/>
                         <h2 className="text-[25px] text-secondary">Clinica delle tendinopatie</h2>
+                        <div className="p-5 rounded-2xl bg-white mt-3">
+                            <p className="text-secondary">
+                                Risoluzione di tutte quelle patologie che affliggono i tendini sia nella
+                                vita quotidiana che in quella sportiva.
+                            </p>
+                        </div>
+                        <Link href="/news/4" passHref>
+                            <button
+                                className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
+                                DI PIU
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="flex flex-col justify-between items-center"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                         data-aos-once="true"
+                    >
+                        <Image src={'/img/home/fisio_donna.webp'} width="110px" height="110px" layout="fixed"
+                               alt="Fisioste tendinopatie"/>
+                        <h2 className="text-[25px] text-secondary">Fisioterapia Donna</h2>
                         <div className="p-5 rounded-2xl bg-white mt-3">
                             <p className="text-secondary">
                                 Risoluzione di tutte quelle patologie che affliggono i tendini sia nella
