@@ -62,7 +62,7 @@ export const GrigliaContatti: React.FC<GrigliaContattiProps> = ({}) => {
                 <div className="flex flex-col text-center">
                     <h2 className="text-[25px] text-secondary mt-4">Orari</h2>
                     <span className="text-secondary text-base xl:text-[18px] font-light"
-                    >Lun-Ven / 9:00 - 20:00</span>
+                    >Lun-Ven / 8:00 - 21:00</span>
                 </div>
             </div>
         </div>

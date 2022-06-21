@@ -20,6 +20,11 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
         }
     })
 
+    const [counterActive, setCounterActive] = useState(true);
+    const [visitedCount, setVisitedCount] = useState(0);
+    const [visitedCount2, setVisitedCount2] = useState(0);
+    const [visitedCount3, setVisitedCount3] = useState(0);
+
     return (
         <div className="container m-auto flex flex-col py-6">
             <div>
@@ -63,7 +68,15 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
                             <CountUp end={1250} duration={3}>
                                 {({countUpRef, start}) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
+                                    <VisibilitySensor onChange={() => {
+                                        setVisitedCount(visitedCount + 1)
+                                        if(visitedCount === 1){
+                                            start()
+                                        }
+                                        if(visitedCount === 2){
+                                            setCounterActive(false)
+                                        }
+                                    }} delayedCall active={counterActive}>
                                         <span className="text-5xl text-white" ref={countUpRef} />
                                     </VisibilitySensor>
                                 )}
@@ -82,7 +95,15 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
                             <CountUp end={150} duration={3}>
                                 {({countUpRef, start}) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
+                                    <VisibilitySensor onChange={() => {
+                                        setVisitedCount2(visitedCount2 + 1)
+                                        if(visitedCount2 === 1){
+                                            start()
+                                        }
+                                        if(visitedCount2 === 2){
+                                            setCounterActive(false)
+                                        }
+                                    }} delayedCall active={counterActive}>
                                         <span className="text-5xl text-white" ref={countUpRef} />
                                     </VisibilitySensor>
                                 )}
@@ -100,7 +121,15 @@ export const Servizi: React.FC<ServiziProps> = ({servizi}) => {
                             className="w-[150px] h-[150px] shadow-2xl rounded-full bg-orange-400 flex justify-center items-center">
                             <CountUp end={5} duration={3}>
                                 {({countUpRef, start}) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
+                                    <VisibilitySensor onChange={() => {
+                                        setVisitedCount3(visitedCount3 + 1)
+                                        if(visitedCount3 === 1){
+                                            start()
+                                        }
+                                        if(visitedCount3 === 2){
+                                            setCounterActive(false)
+                                        }
+                                    }} delayedCall active={counterActive}>
                                         <span className="text-5xl text-white" ref={countUpRef} />
                                     </VisibilitySensor>
                                 )}

@@ -42,7 +42,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                             <Image src={'/img/clock1.png'} width="50px" height="50px" layout="fixed" alt="Fisioste clock"/>
                             <div className="flex flex-col ml-4">
                                 <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Orari</h3>
-                                <p className="text-secondary text-[14px] font-light">Lun - Ven 9:00-20:00</p>
+                                <p className="text-secondary text-[14px] font-light">Lun - Ven 8:00-21:00</p>
                             </div>
                         </div>
 

@@ -10,7 +10,7 @@ export const GrigliaServizi: React.FC<GrigliaServiziProps> = ({servizi}) => {
     return(
         <>
             <div className="container pb-20 md:pt-10 m-auto grid lg:grid-cols-3 gap-16">
-                {servizi.map(servizio => {
+                {servizi.filter(s => s.description !== '').map(servizio => {
                     return(
                         <Link key={servizio.id} href={`/servizi/${servizio.id}`}>
                             <div className="h-full bg-[#e1edff] rounded-2xl shadow-xl hover:scale-105 hover:duration-700 duration-700">
