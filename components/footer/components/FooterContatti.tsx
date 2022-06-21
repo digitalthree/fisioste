@@ -36,7 +36,7 @@ export const FooterContatti: React.FC<FooterContattiProps> = ({}) => {
                 <div className="flex flex-col">
                                     <span className="text-secondary mt-4 ml-4 text-sm text-center lg:text-base font-light"
                                     >
-                                        Lun-Ven / 9:00 - 20:00
+                                        Lun-Ven / 8:00 - 21:00
                                     </span>
                 </div>
             </div>
