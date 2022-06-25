@@ -8,6 +8,7 @@ import {Osteopatia} from "./Osteopatia";
 import {LaserTerapia} from "./LaserTerapia";
 import {RiabilitazionePosturale} from "./RiabilitazionePosturale";
 import {TerapieFisiche} from "./TerapieFisiche";
+import {ClinicaColonna} from "./ClinicaColonna";
 
 interface FactoryServiziProps {
     servizio: string
@@ -34,6 +35,8 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({servizio}) => {
             return <RiabilitazionePosturale/>
         case "Terapie Fisiche":
             return <TerapieFisiche/>
+        case "Clinica Della Colonna":
+            return <ClinicaColonna/>
         default:
             return <></>
     }

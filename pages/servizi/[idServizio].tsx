@@ -39,7 +39,7 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
     const { idServizio } = router.query
     let servizioSelezionato = servizi.filter(s => s.id === parseInt(idServizio as string))[0]
 
-    let itemsCarosello: CaroselloItem[] = servizi.map(s => {
+    let itemsCarosello: CaroselloItem[] = servizi.filter(s => s.description !== "").map(s => {
         return {
             id: s.id,
             imgUrl: s.imgUrl,

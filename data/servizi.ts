@@ -134,5 +134,14 @@ export let servizi: Servizio[] = [
         bannerImgUrlTablet: '',
         bannerImgUrlMobile: '',
         description: '',
+    },
+    {
+        id: 16,
+        name: 'Clinica Della Colonna',
+        imgUrl: '/img/home/osteopatia.webp',
+        bannerImgUrl: '/img/servizi/banners/desktop/osteopatia_banner.webp',
+        bannerImgUrlTablet: '/img/servizi/banners/tablet/Osteopatia.png',
+        bannerImgUrlMobile: '/img/servizi/banners/mobile/Osteopatia.png',
+        description: '',
     }
 ];

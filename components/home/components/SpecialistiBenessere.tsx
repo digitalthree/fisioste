@@ -29,7 +29,7 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 stress, artrosi.
                             </p>
                         </div>
-                        <Link href="/#" passHref>
+                        <Link href="/servizi/16" passHref>
                             <button
                                 className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
                                 DI PIU
