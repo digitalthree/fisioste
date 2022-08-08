@@ -93,7 +93,7 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                                 vita quotidiana che in quella sportiva.
                             </p>
                         </div>
-                        <Link href="/news/4" passHref>
+                        <Link href="/news/6" passHref>
                             <button
                                 className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
                                 DI PIU
