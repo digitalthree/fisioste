@@ -9,10 +9,10 @@ export const Hero: React.FC<HeroProps> = ({}) => {
         <>
             <div className="h-[48vh] lg:h-[60vh] bg-[#EFEFEF] p-2 hidden lg:flex justify-start bg-no-repeat bg-auto"
                  style={{
-                     backgroundImage: "url('/img/home/hero.webp')",
-                     backgroundSize: '1700px',
+                     backgroundImage: "url('/img/home/fotoStaff.webp')",
+                     backgroundSize: '1200px',
                      backgroundPositionX: '50%',
-                     backgroundPositionY: '15%',
+                     backgroundPositionY: '-45%',
                  }}
             >
                 <div className="container justify-center mt-0 lg:mx-auto hidden lg:flex">
