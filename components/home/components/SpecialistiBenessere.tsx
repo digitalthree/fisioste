@@ -89,11 +89,11 @@ export const SpecialistiBenessere: React.FC<SpecialistiBenessereProps> = ({}) =>
                         <h2 className="text-[25px] text-secondary">Fisioterapia Donna</h2>
                         <div className="p-5 rounded-2xl bg-white mt-3">
                             <p className="text-secondary">
-                                Risoluzione di tutte quelle patologie che affliggono i tendini sia nella
-                                vita quotidiana che in quella sportiva.
+                                Trattamenti dedicati alla donna per la cura delle disfunzioni del pavimento
+                                pelvico, pre/post parto, incontinenza, dolori mestruali, endometriosi etc.
                             </p>
                         </div>
-                        <Link href="/news/6" passHref>
+                        <Link href="/news/7" passHref>
                             <button
                                 className='px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80'>SCOPRI
                                 DI PIU

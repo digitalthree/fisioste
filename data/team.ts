@@ -73,7 +73,7 @@ export const teamMembers: TeamMember[] = [
     },
     {
         id:4,
-        nome: 'Francesca',
+        nome: 'Francesca Antonini',
         professione: "Assistant Manager",
         imgUrl: "/img/chisiamo/fra.png",
         specializzazioni: [],
@@ -81,6 +81,18 @@ export const teamMembers: TeamMember[] = [
             "Il mio percorso di studi inizia all’Università degli studi di Teramo dove nel 2017 ottengo una laurea triennale e a Marzo 2020, nel pieno della pandemia concludo una laurea magistrale in scienze delle amministrazioni con 110 lode.\n" +
             "Durante l’estate del 2020, inizio il corso di formazione di ASSISTANT MANAGER, organizzato per personale di studio medico, l’ho superato e sono stata scelta da Fisioste.\n" +
             "Fisioste è la mia prima esperienza lavorativa in questo settore, mi è sempre piaciuto lavorare a contatto con il pubblico, ancora di più se l’ambiente è dinamico e stimolante."
+    },
+    {
+        id:5,
+        nome: "Cristina D'Eustachio",
+        professione: "Office Manager",
+        imgUrl: "/img/chisiamo/cristina.png",
+        specializzazioni: [],
+        bio: "Cristina D’Eustachio, nata a Sant’Omero il 07/12/1990.\n" +
+            "Nel 2019 ho conseguito la laurea triennale in scienze delle amministrazioni pubbliche e giudiziarie, presso l’università degli studi di Teramo.\n" +
+            "Successivamente, ho deciso di proseguire il mio percorso di studi iscrivendomi al corso di laurea in scienze economico aziendali, al quale sono ancora iscritta.\n" +
+            "Durante il mio percorso di studi ho svolto due stage in ambito amministrativo, in due grandi aziende del territorio, oltre ad aver lavorato come back office amministrativo per un’azienda abruzzese.\n" +
+            "Da maggio, ho iniziato a lavorare da FISIOSTE, dove mi occupo di Fack office, mi sono trovata bene fin da subito: l’ambiente è stimolante e dinamico."
     },
 
 

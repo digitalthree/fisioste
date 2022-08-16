@@ -9,8 +9,8 @@ interface GrigliaNewsProps {
 export const GrigliaNews: React.FC<GrigliaNewsProps> = ({news}) => {
     return(
         <>
-            <div className="container m-auto grid lg:grid-cols-2 gap-14 py-20">
-                {news.map(n => {
+            <div className="container m-auto grid lg:grid-cols-3 gap-14 py-20">
+                {news.filter(n => n.categoria !== "Info").map(n => {
                     return (
                         <div key={n.id}
                              className="shadow-xl flex flex-col bg-[#e1edff] justify-between rounded-2xl"

@@ -4,7 +4,7 @@ export interface News {
     descrizione: string,
     imgUrl: string,
     bannerImgUrl: string,
-    categoria: 'Notizie'
+    categoria: 'Notizie' | 'Info'
 }
 
 export let news: News[] = [
@@ -55,5 +55,13 @@ export let news: News[] = [
         imgUrl: '/img/home/terapiamanuale.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
         categoria: "Notizie"
+    },
+    {
+        id: 7,
+        titolo: 'Fisioterapia Donna',
+        descrizione: '',
+        imgUrl: '/img/home/terapiamanuale.webp',
+        bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
+        categoria: "Info"
     },
 ]

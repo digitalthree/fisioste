@@ -13,10 +13,10 @@ export const TeamCards: React.FC<TeamCardsProps> = ({team}) => {
     const [selectedMember, setSelectedMember] = useState(team[0]);
 
     return(
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 container m-auto py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 container m-auto py-20">
             {team.map(member => {
                 return(
-                    <div key={member.id} className="flex flex-col rounded-xl bg-[#d8e8ff] shadow-xl items-center"
+                    <div key={member.id} className="flex flex-col justify-between  rounded-xl bg-[#d8e8ff] shadow-xl items-center"
                          data-aos="zoom-in"
                          data-aos-duration="2000"
                          data-aos-once="true"

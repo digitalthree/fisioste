@@ -143,5 +143,5 @@ export let servizi: Servizio[] = [
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Osteopatia.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Osteopatia.png',
         description: '',
-    }
+    },
 ];
