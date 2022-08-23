@@ -30,13 +30,13 @@ function MyApp({Component, pageProps}: AppProps) {
             <Navbar/>
             <Component {...pageProps} />
             <div className="hidden md:flex">
-                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'3288349050'} avatar="/favicon.ico"
+                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'+393288349050'} avatar="/favicon.ico"
                                    placeholder="Scrivi..." chatMessage="Ciao, come possiamo aiutarti?"
                                    statusMessage="Disponibile" className="z-50"
                 />
             </div>
             <div className="md:hidden">
-                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'3288349050'} avatar="/favicon.ico"
+                <FloatingWhatsApp  accountName={'Fisioste'} phoneNumber={'+393288349050'} avatar="/favicon.ico"
                                    placeholder="Scrivi..." chatMessage="Ciao, come possiamo aiutarti?"
                                    statusMessage="Disponibile" className="z-50" styles={{bottom: '4.2rem', right: "1rem"}}
                 />
