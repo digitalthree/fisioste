@@ -31,7 +31,7 @@ export const GrigliaContatti: React.FC<GrigliaContattiProps> = ({}) => {
                        alt="Fisioste smartphone"/>
                 <div className="flex flex-col text-center">
                     <h2 className="text-[25px] text-secondary mt-4">Email</h2>
-                    <a href="tel:+39 3288349050"
+                    <a href="mailto:info@fisioste.it"
                        className="text-secondary text-base xl:text-[18px] font-light hover:cursor-pointer hover:underline">info@fisioste.it</a>
                 </div>
             </div>

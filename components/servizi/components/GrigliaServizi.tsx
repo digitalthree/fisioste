@@ -19,6 +19,7 @@ export const GrigliaServizi: React.FC<GrigliaServiziProps> = ({servizi}) => {
                                          style={{
                                              backgroundImage: `url(${servizio.imgUrl})`,
                                              backgroundSize: '100%',
+                                             backgroundPositionY: (servizio.id !== 8 && servizio.id !== 5) ? "-120px" : "0px",
                                              backgroundRepeat: "no-repeat"
                                          }}
                                     />

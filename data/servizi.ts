@@ -3,7 +3,7 @@ import {Servizio} from "../pages/api/servizi";
 export let servizi: Servizio[] = [
     {
         id: 1, name: 'Tecar Terapia',
-        imgUrl: '/img/home/tecar.webp',
+        imgUrl: '/img/servizi/cervicale_tecar.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/tecarterapia_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/TecarTerapia.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/TecarTerapia.png',
@@ -12,7 +12,7 @@ export let servizi: Servizio[] = [
     {
         id: 2,
         name: 'Fisioestetica',
-        imgUrl: '/img/home/fisioestetica_servizio.webp',
+        imgUrl: '/img/servizi/fisioestetica.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/fisioestetica_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Fisioestetica.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Fisioestetica.png',
@@ -21,7 +21,7 @@ export let servizi: Servizio[] = [
     {
         id: 3,
         name: "Onde d'urto",
-        imgUrl: '/img/home/ondedurto.webp',
+        imgUrl: '/img/servizi/ondeurto.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/onde_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/OndeUrto.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/OndeUrto.png',
@@ -30,7 +30,7 @@ export let servizi: Servizio[] = [
     {
         id: 4,
         name: 'Terapia Manuale',
-        imgUrl: '/img/home/terapiamanuale.webp',
+        imgUrl: '/img/servizi/terapia_manuale.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/TerapiaManuale.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/TerapiaManuale.png',
@@ -48,7 +48,7 @@ export let servizi: Servizio[] = [
     {
         id: 6,
         name: 'Osteopatia',
-        imgUrl: '/img/home/osteopatia.webp',
+        imgUrl: '/img/servizi/cervicale.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/osteopatia_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Osteopatia.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Osteopatia.png',
@@ -57,7 +57,7 @@ export let servizi: Servizio[] = [
     {
         id: 7,
         name: 'Laser Terapia',
-        imgUrl: '/img/home/laserterapia.webp',
+        imgUrl: '/img/servizi/laser_terapia.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/laser_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Laser.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Laser.png',
@@ -75,7 +75,7 @@ export let servizi: Servizio[] = [
     {
         id: 9,
         name: 'Terapie Fisiche',
-        imgUrl: '/img/home/terapiefisiche.webp',
+        imgUrl: '/img/servizi/terapie_fisiche.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/terapie_fisiche_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/TerapieFisiche.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/TerapieFisiche.png',
