@@ -45,7 +45,7 @@ export let news: News[] = [
         titolo: 'Ginnastica Ipopressiva',
         descrizione: 'La ginnastica ipopressiva è una tecnica di riabilitazione posturale volta a rafforzare la fascia addominale e la muscolatura del pavimento pelvico, riequilibrando contemporaneamente le curve fisiologiche della colonna vertebrale.',
         imgUrl: '/img/news/Ipopressiva.webp',
-        bannerImgUrl: '',
+        bannerImgUrl: '/img/news/Ipopressiva_banner.png',
         categoria: "Notizie"
     },
     {
@@ -53,7 +53,7 @@ export let news: News[] = [
         titolo: 'Riabilitazione Pavimento Pelvico',
         descrizione: 'I rapporti sessuali non devono provocare dolore; avere dolore nella zona pelvica e genitale durante l’atto sessuale è un chiaro segnale e non deve essere ignorato!',
         imgUrl: '/img/news/pavimento_pelvico.webp',
-        bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
+        bannerImgUrl: '/img/news/pavimento_pelvico_banner.png',
         categoria: "Notizie"
     },
     {
