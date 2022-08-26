@@ -92,7 +92,7 @@ export const teamMembers: TeamMember[] = [
             "Nel 2019 ho conseguito la laurea triennale in scienze delle amministrazioni pubbliche e giudiziarie, presso l’università degli studi di Teramo.\n" +
             "Successivamente, ho deciso di proseguire il mio percorso di studi iscrivendomi al corso di laurea in scienze economico aziendali, al quale sono ancora iscritta.\n" +
             "Durante il mio percorso di studi ho svolto due stage in ambito amministrativo, in due grandi aziende del territorio, oltre ad aver lavorato come back office amministrativo per un’azienda abruzzese.\n" +
-            "Da maggio, ho iniziato a lavorare da FISIOSTE, dove mi occupo di Fack office, mi sono trovata bene fin da subito: l’ambiente è stimolante e dinamico."
+            "Da maggio, ho iniziato a lavorare da FISIOSTE, dove mi occupo di Front office, mi sono trovata bene fin da subito: l’ambiente è stimolante e dinamico."
     },
 
 
