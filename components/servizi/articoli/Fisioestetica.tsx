@@ -6,12 +6,18 @@ interface FisioesteticaProps {
 export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
     return (
         <>
+            <h2 className="text-secondary text-[25px]">
+                Cos’è?
+            </h2>
             <p className="text-[18px]">
                 La fisioestetica dermatofunzionale è una nuova branca della fisioterapia, ovvero l’associazione della
                 fisioterapia alla medicina estetica. Infatti, si utilizzano tecniche ed elettromedicali che vengono
                 impiegati in fisioterapia riabilitativa.
             </p>
             <div>
+                <h2 className="text-secondary text-[25px]">
+                    A cosa serve?
+                </h2>
                 <p className="text-[18px]">
                     a fisioestetica dermatofunzionale agisce su uno spettro più ampio di salute e benessere andando ad
                     individuare le cause degli inestetismi e processi di invecchiamento, e viene impiegata nel
@@ -43,7 +49,10 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                     <li>Miglioramento della circolazione</li>
                     <li>Aumento elasticità della pelle</li>
                 </ul>
-                <p className="text-[18px] mt-4 mb-4">
+                <h2 className="text-secondary text-[25px] mt-4">
+                    Perchè è importante?
+                </h2>
+                <p className="text-[18px] mb-4">
                     L’obiettivo è quello di favorire il ripristino e il miglioramento di deviazioni estetiche, che
                     influenzano direttamente l’autostima della persona e, di conseguenza, la qualità della vita.
                 </p>

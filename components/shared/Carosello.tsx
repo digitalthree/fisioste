@@ -63,7 +63,7 @@ export const Carosello: React.FC<CaroselloProps> = ({data}) => {
                                      style={{
                                          backgroundImage: `url(${item.imgUrl})`,
                                          backgroundSize: 'cover',
-                                         backgroundPositionY: (item.id !== 8 && item.id !== 5) ? "-50px" : "0px",
+                                         backgroundPositionY: (item.id !== 5) ? "-50px" : "0px",
                                          backgroundRepeat: "no-repeat"
                                      }}
                                 />

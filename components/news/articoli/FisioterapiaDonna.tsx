@@ -10,7 +10,7 @@ export const FisioterapiaDonna: React.FC<FisioterapiaDonnaProps> = ({}) => {
                 Abbiamo creato un centro a Teramo per la cura delle patologie per la Donna.
             </p>
             <p className="text-[18px] mb-4">
-                I nostri trattamenti si dividono in:
+                Quali sono i trattamenti?
             </p>
             <ul className="list-disc px-10">
                 <li>Riabilitazione ginecologica che riguarda tutte le patologie del pavimento pelvico, efficaci sia
@@ -20,10 +20,10 @@ export const FisioterapiaDonna: React.FC<FisioterapiaDonnaProps> = ({}) => {
                     adulta che devono affrontare le problematiche della menopausa.
                 </li>
             </ul>
-            <p className="text-[18px] mb-4 mt-4">
+            {/*<p className="text-[18px] mb-4 mt-4">
                 Le patologie del pavimento pelvico sono spesso associate ad un’alterazione del tono muscolare, ipotono e
                 ipertono.
-            </p>
+            </p>*/}
             <ul className="list-disc px-10">
                 <li>Riabilitazione dermatofunzionale e Fisioestetica che vanno a trattare tutte le patologie come
                     cellulite, adipe localizzato, smagliature, dimagrimento localizzato, segni del tempo sul viso, gambe

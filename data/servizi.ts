@@ -66,7 +66,7 @@ export let servizi: Servizio[] = [
     {
         id: 8,
         name: 'Rieducazione Posturale',
-        imgUrl: '/img/home/rieducazioneposturale.webp',
+        imgUrl: '/img/servizi/posturale.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/rieducazione_posturale_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/RieducazionePosturale.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/RieducazionePosturale.png',
