@@ -7,11 +7,11 @@ export const LaserTerapia: React.FC<LaserTerapiaProps> = ({}) => {
     return (
         <>
             <p className="text-[18px] mb-4">
-                La laserterapia MLS (multiwawe Locked System) è una tecnica all’avanguardia, le cui caratteristiche di
+                La laserterapia è una tecnica all’avanguardia, le cui caratteristiche di
                 emissione sono state studiate per migliorare l’efficacia terapeutica del laser.
             </p>
             <p className="text-[18px] mb-4">
-                L’impulso MLS è generato da un sofisticato sistema ad emissione continua e pulsata, sincronizzata e
+                L’impulso è generato da un sofisticato sistema ad emissione continua e pulsata, sincronizzata e
                 combinata, di due sorgenti con differenze lunghezze d’onda in grado di giungere in profondità nei
                 tessuti. Grazie alla sinergie di questi impulsi, si hanno effetti terapeutici antiinfiammatori,
                 antiedemigeni, analgesici e biostimolanti.

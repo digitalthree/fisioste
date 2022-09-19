@@ -61,7 +61,7 @@ export let servizi: Servizio[] = [
         bannerImgUrl: '/img/servizi/banners/desktop/laser_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Laser.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Laser.png',
-        description: 'La laserterapia MLS (multiwawe Locked System) è una tecnica all’avanguardia, le cui caratteristiche di emissione sono state studiate per migliorare l’efficacia terapeutica del laser.',
+        description: 'La laserterapia Fisioline lumix 250 è una tecnica all’avanguardia, le cui caratteristiche di emissione sono state studiate per migliorare l’efficacia terapeutica del laser.',
     },
     {
         id: 8,
