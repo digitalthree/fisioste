@@ -11,6 +11,7 @@ import 'aos/dist/aos.css';
 import {useEffect} from "react";
 import CookieConsent from "react-cookie-consent";
 import FloatingWhatsApp from 'react-floating-whatsapp'
+import {useRouter} from "next/router";
 
 
 function MyApp({Component, pageProps}: AppProps) {
@@ -19,6 +20,21 @@ function MyApp({Component, pageProps}: AppProps) {
         AOS.init()
     }, []);
 
+    const router = useRouter()
+
+    useEffect(() => {
+        import('react-facebook-pixel')
+            .then((x) => x.default)
+            .then((ReactPixel) => {
+                ReactPixel.init('782387836062997') // facebookPixelId
+                ReactPixel.pageView()
+
+                router.events.on('routeChangeComplete', () => {
+                    ReactPixel.pageView()
+                })
+            })
+    }, [router.events])
+
 
     return (
         <>
@@ -26,6 +42,7 @@ function MyApp({Component, pageProps}: AppProps) {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta name="description" content="Sito Web Fisioste"/>
                 <title>Fisioste</title>
+
             </Head>
             <Navbar/>
             <Component {...pageProps} />

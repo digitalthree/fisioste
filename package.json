@@ -24,6 +24,7 @@
     "react-countup": "^6.2.0",
     "react-datepicker": "^4.7.0",
     "react-dom": "18.0.0",
+    "react-facebook-pixel": "^1.0.4",
     "react-floating-whatsapp": "^4.0.5",
     "react-hook-form": "^7.30.0",
     "react-icons": "^4.3.1",
