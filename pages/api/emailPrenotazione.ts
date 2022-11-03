@@ -15,7 +15,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
         const message = {
             text: req.body.servizio + " | Inviato Da: " + req.body.numero,
-            from: 'Sito web fisioste.it',
+            from: 'fisioste.it',
             to: process.env.EMAIL_USER as string,
             subject: `Messaggio Da ${req.body.name}`,
             attachment: [

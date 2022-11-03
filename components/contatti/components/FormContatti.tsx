@@ -24,7 +24,6 @@ export const FormContatti: React.FC<FormContattiProps> = ({}) => {
                 telefono: telefono,
                 messaggio: messaggio
             }
-            console.log(data)
             await fetch('/api/emailContatti', {
                 method: 'POST',
                 headers: {
