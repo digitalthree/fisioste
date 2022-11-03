@@ -14,13 +14,15 @@ interface PrenotaAppuntamentoDesktopProps {
     setEmailError: (e: boolean) => void,
     emailError: boolean,
     loading: boolean,
-    inviaEmail: () => void
+    inviaEmail: () => void,
+    numero: string,
+    setNumero: (n:string) => void
 }
 
 export const PrenotaAppuntamentoDesktop: React.FC<PrenotaAppuntamentoDesktopProps> = (
     {
         options, setService, startDate, setStartDate, setDataPrenotazione, setName, setEmail,
-        email, setEmailError, emailError, loading, inviaEmail
+        email, setEmailError, emailError, loading, inviaEmail, numero, setNumero
     }
 ) => {
     return(
@@ -56,6 +58,13 @@ export const PrenotaAppuntamentoDesktop: React.FC<PrenotaAppuntamentoDesktopProp
             <div className="w-[200px]">
                 <input
                     className="appearance-none rounded-full w-full px-4 py-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
+                    type="number"
+                    id="number"
+                    placeholder="Numero Tel."
+                    onChange={(e) => setNumero(e.target.value)}
+                />
+                {/*<input
+                    className="appearance-none rounded-full w-full px-4 py-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
                     type="text"
                     id="email"
                     placeholder="Email"
@@ -69,7 +78,7 @@ export const PrenotaAppuntamentoDesktop: React.FC<PrenotaAppuntamentoDesktopProp
 
                     }}
                 />
-                {emailError && <p className="text-red-300">Email Non Valida!</p>}
+                {emailError && <p className="text-red-300">Email Non Valida!</p>}*/}
 
             </div>
             <div className="relative">
@@ -82,7 +91,7 @@ export const PrenotaAppuntamentoDesktop: React.FC<PrenotaAppuntamentoDesktopProp
                 <button
                     className='px-4 py-3 w-full rounded-full bg-secondary text-white font-bold mr-7 hover:opacity-80'
                     onClick={() => {
-                        (!emailError && email != "") && inviaEmail()
+                        (numero !== "") && inviaEmail()
                     }}
                 >
                     PRENOTA UN APPUNTAMENTO

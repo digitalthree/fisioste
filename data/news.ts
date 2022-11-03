@@ -64,4 +64,12 @@ export let news: News[] = [
         bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
         categoria: "Info"
     },
+    {
+        id: 8,
+        titolo: 'Endometriosi',
+        descrizione: 'L’endometriosi è una patologia cronica a carattere progressivo, che si verifica per la presenza dell’endometrio (tessuto che riveste la cavità uterina) all’esterno dell’utero stesso.',
+        imgUrl: '/img/news/endometriosi.png',
+        bannerImgUrl: '/img/news/pavimento_pelvico_banner.png',
+        categoria: "Notizie"
+    },
 ]

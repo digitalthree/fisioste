@@ -14,13 +14,15 @@ interface PrenotaAppuntamentoMobileProps {
     setEmailError: (e: boolean) => void,
     emailError: boolean,
     loading: boolean,
-    inviaEmail: () => void
+    inviaEmail: () => void,
+    numero: string,
+    setNumero: (n:string) => void
 }
 
 export const PrenotaAppuntamentoMobile: React.FC<PrenotaAppuntamentoMobileProps> = (
     {
         options, setService, startDate, setStartDate, setDataPrenotazione, setName, setEmail,
-        email, setEmailError, emailError, loading, inviaEmail
+        email, setEmailError, emailError, loading, inviaEmail, numero, setNumero
     }
 ) => {
     return(
@@ -58,20 +60,11 @@ export const PrenotaAppuntamentoMobile: React.FC<PrenotaAppuntamentoMobileProps>
                 <div className="w-[300px] m-auto">
                     <input
                         className="appearance-none rounded-full w-full p-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
-                        type="text"
-                        id="email"
-                        placeholder="Email"
-                        onChange={(e) => {
-                            if (e.target.value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i)) {
-                                setEmailError(false)
-                                setEmail(e.target.value)
-                            } else {
-                                setEmailError(true)
-                            }
-
-                        }}
+                        type="number"
+                        id="number"
+                        placeholder="Numero Tel."
+                        onChange={(e) => setNumero(e.target.value)}
                     />
-                    {emailError && <p className="text-red-300">Email Non Valida!</p>}
                 </div>
                 <div className="relative w-[300px] m-auto">
                     {loading && <span className="flex h-5 w-5 absolute right-0">
@@ -84,7 +77,7 @@ export const PrenotaAppuntamentoMobile: React.FC<PrenotaAppuntamentoMobileProps>
                     <button
                         className='px-4 py-3 w-full rounded-full bg-secondary text-white font-bold mr-7 hover:opacity-80'
                         onClick={() => {
-                            (!emailError && email !== "") && inviaEmail()
+                            (numero !== "") && inviaEmail()
                         }}
                     >
                         PRENOTA UN APPUNTAMENTO

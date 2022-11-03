@@ -19,7 +19,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
                     A cosa serve?
                 </h2>
                 <p className="text-[18px]">
-                    a fisioestetica dermatofunzionale agisce su uno spettro più ampio di salute e benessere andando ad
+                    La fisioestetica dermatofunzionale agisce su uno spettro più ampio di salute e benessere andando ad
                     individuare le cause degli inestetismi e processi di invecchiamento, e viene impiegata nel
                     trattamento di:
                 </p>

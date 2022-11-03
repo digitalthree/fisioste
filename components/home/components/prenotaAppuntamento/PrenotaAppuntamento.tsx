@@ -30,6 +30,7 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = (
     const [startDate, setStartDate] = useState(new Date());
     const [dataPrenotazione, setDataPrenotazione] = useState(new Date().toLocaleDateString());
     const [name, setName] = useState('');
+    const [numero, setNumero] = useState('');
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState(false);
     const [service, setService] = useState('');
@@ -42,14 +43,15 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = (
         try {
             let data = {
                 name: name,
-                email: email,
+                numero: numero,
                 servizio: service,
                 data: dataPrenotazione
             }
+            console.log(data)
             await fetch('/api/emailPrenotazione', {
                 method: 'POST',
                 headers: {
-                    'Accept': 'application/json, text/plain, *!/!*',
+                    'Accept': 'application/json, text/plain, */*',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(data)
@@ -73,13 +75,14 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = (
             <PrenotaAppuntamentoDesktop options={options} setService={setService} startDate={startDate}
                                         setStartDate={setStartDate} setDataPrenotazione={setDataPrenotazione}
                                         setName={setName} setEmail={setEmail} email={email} setEmailError={setEmailError}
-                                        emailError={emailError} loading={loading} inviaEmail={inviaEmail}
+                                        emailError={emailError} loading={loading} inviaEmail={inviaEmail} numero={numero} setNumero={setNumero}
             />
 
             <PrenotaAppuntamentoMobile options={options} setService={setService} startDate={startDate}
                                         setStartDate={setStartDate} setDataPrenotazione={setDataPrenotazione}
                                         setName={setName} setEmail={setEmail} email={email} setEmailError={setEmailError}
-                                        emailError={emailError} loading={loading} inviaEmail={inviaEmail}
+                                        emailError={emailError} loading={loading} inviaEmail={inviaEmail} numero={numero}
+                                       setNumero={setNumero}
             />
 
             <NotificaInvioEmail emailInviata={emailInviata}/>

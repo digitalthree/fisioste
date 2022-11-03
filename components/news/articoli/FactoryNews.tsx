@@ -6,6 +6,7 @@ import {Tendinopatie} from "./Tendinopatie";
 import {GinnasticaIpopressiva} from "./GinnasticaIpopressiva";
 import {RiabilitazionePavimentoPelvico} from "./RiabilitazionePavimentoPelvico";
 import {FisioterapiaDonna} from "./FisioterapiaDonna";
+import {Endometriosi} from "./Endometriosi";
 
 interface FactoryNewsProps {
     idNews: number
@@ -27,6 +28,8 @@ export const FactoryNews: React.FC<FactoryNewsProps> = ({idNews}) => {
             return <RiabilitazionePavimentoPelvico/>
         case 7:
             return <FisioterapiaDonna/>
+        case 8:
+            return <Endometriosi/>
         default:
             return <></>
     }
