@@ -9,10 +9,10 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
     {
-        id:1,
+        id: 1,
         nome: 'Stefano Luciani',
         professione: "Fisoterapista - Ospeopata",
-        imgUrl: "/img/chisiamo/stef.png",
+        imgUrl: "/img/chisiamo/Stefano.jpg",
         specializzazioni: [
             "Fisioterapia", "Osteopatia", "Trattamento disturbi temporomandibolari"
         ],
@@ -31,10 +31,10 @@ export const teamMembers: TeamMember[] = [
             "Ho creato CLINICA DELLA COLONNA, che nasce dall’idea di creare una struttura in grado di adattare i trattamenti, alle esigenze dei pazienti."
     },
     {
-        id:2,
+        id: 2,
         nome: 'Valentina Di Tommaso',
         professione: "Fisoterapista",
-        imgUrl: "/img/chisiamo/Vale.png",
+        imgUrl: "/img/chisiamo/Valentina.jpg",
         specializzazioni: [
             "Riabilitazione del pavimento pelvico",
             "Ginnastica ipopressiva",
@@ -53,10 +53,10 @@ export const teamMembers: TeamMember[] = [
             "FISIOTERAPIA DONNA, è la mia specializzazione"
     },
     {
-        id:3,
+        id: 3,
         nome: 'Sara Barone',
         professione: "Fisoterapista",
-        imgUrl: "/img/chisiamo/sara.png",
+        imgUrl: "/img/chisiamo/Sara.jpg",
         specializzazioni: [
             "Trattamento viso",
             "Linfodrenaggio vodder",
@@ -72,10 +72,10 @@ export const teamMembers: TeamMember[] = [
             "Grazie a Stefano Luciani, il mio bagaglio professionale si è potuto arricchire con lo studio di una nuova branca della fisioterapia: la fisioterapia estetica dermatofunzionale."
     },
     {
-        id:4,
+        id: 4,
         nome: 'Francesca Antonini',
         professione: "Assistant Manager",
-        imgUrl: "/img/chisiamo/fra.png",
+        imgUrl: "/img/chisiamo/Francesca.jpg",
         specializzazioni: [],
         bio: "Francesca Antonini, Assistant Manager,nata il 31/01/1994 ad Ascoli Piceno.\n" +
             "Il mio percorso di studi inizia all’Università degli studi di Teramo dove nel 2017 ottengo una laurea triennale e a Marzo 2020, nel pieno della pandemia concludo una laurea magistrale in scienze delle amministrazioni con 110 lode.\n" +
@@ -83,16 +83,22 @@ export const teamMembers: TeamMember[] = [
             "Fisioste è la mia prima esperienza lavorativa in questo settore, mi è sempre piaciuto lavorare a contatto con il pubblico, ancora di più se l’ambiente è dinamico e stimolante."
     },
     {
-        id:5,
-        nome: "Cristina D'Eustachio",
-        professione: "Office Manager",
-        imgUrl: "/img/chisiamo/cristina.png",
+        id: 5,
+        nome: "Denise Canas",
+        professione: "Assistant Manager",
+        imgUrl: "/img/chisiamo/Denise.jpg",
         specializzazioni: [],
-        bio: "Cristina D’Eustachio, nata a Sant’Omero il 07/12/1990.\n" +
-            "Nel 2019 ho conseguito la laurea triennale in scienze delle amministrazioni pubbliche e giudiziarie, presso l’università degli studi di Teramo.\n" +
-            "Successivamente, ho deciso di proseguire il mio percorso di studi iscrivendomi al corso di laurea in scienze economico aziendali, al quale sono ancora iscritta.\n" +
-            "Durante il mio percorso di studi ho svolto due stage in ambito amministrativo, in due grandi aziende del territorio, oltre ad aver lavorato come back office amministrativo per un’azienda abruzzese.\n" +
-            "Da maggio, ho iniziato a lavorare da FISIOSTE, dove mi occupo di Front office, mi sono trovata bene fin da subito: l’ambiente è stimolante e dinamico."
+        bio: "Denise Canas, Assistant Manager, nata a Teramo il 28/03/1994.\n" +
+            "\n" +
+            "Lavoro da sempre a contatto con il pubblico sia nel back che nel front office.\n" +
+            "\n" +
+            "Durante le mie varie esperienze lavorative nell’ambito del retail, mi sono dedicata anche a collaborazioni social marketing; così ho conosciuto il Centro Fisioste con il quale coopero da un anno e mezzo.\n" +
+            "\n" +
+            "Fin da subito ho trovato professionalità e ottimi risultati nelle prestazioni che offrono.\n" +
+            "\n" +
+            "Mi piace lavorare in ambienti stimolanti e con grande propensione alla formazione e aggiornamento.\n" +
+            "\n" +
+            "Ad oggi sono felice di far parte del team dato che Fisioste è come una famiglia. "
     },
 
 

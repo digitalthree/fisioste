@@ -9,7 +9,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
         <>
             <div className="h-[48vh] lg:h-[60vh] bg-[#EFEFEF] p-2 hidden lg:flex justify-start bg-no-repeat bg-auto"
                  style={{
-                     backgroundImage: "url('/img/home/fotoStaff.webp')",
+                     backgroundImage: "url('/img/home/fotoStaff.png')",
                      backgroundSize: '1200px',
                      backgroundPositionX: '50%',
                      backgroundPositionY: '-45%',
@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
 
             <div className="h-[48vh] bg-[#EFEFEF] p-2 hidden sm:flex lg:hidden justify-start bg-no-repeat"
                  style={{
-                     backgroundImage: "url('/img/home/hero_tablet.webp')",
+                     backgroundImage: "url('/img/home/fotoStaff_tablet.png')",
                      backgroundSize: 'contain',
                      backgroundPositionY: "100px",
                  }}
@@ -50,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
             <div
                 className="h-[48vh] relative sm:hidden lg:h-[55vh] bg-[#EFEFEF] p-2 flex justify-center bg-no-repeat bg-auto"
                 style={{
-                    backgroundImage: "url('/img/home/hero_mobile.webp')",
+                    backgroundImage: "url('/img/home/fotoStaff_mobile.png')",
                     backgroundSize: '400px',
                     backgroundPositionX: "50%",
                     backgroundPositionY: "50%"

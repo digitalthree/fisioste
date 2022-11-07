@@ -23,7 +23,7 @@ export const TeamCards: React.FC<TeamCardsProps> = ({team}) => {
                          data-aos-delay={member.id * 300}
                     >
                         <div className="bg-gradient-to-t from-[#d8e8ff] to-white">
-                            <Image src={member.imgUrl} width="600" height="600" layout="intrinsic"/>
+                            <Image src={member.imgUrl} width="600" height="743" layout="intrinsic"/>
                         </div>
                         <div className="flex flex-col p-3">
                             <p className="text-menuText">{member.professione}</p>
