@@ -8,7 +8,7 @@ export const RiabilitazionePavimentoPelvico: React.FC<RiabilitazionePavimentoPel
         <>
             <h2 className="text-secondary text-[25px] mt-3">HAI DOLORE DURANTE I RAPPORTI?</h2>
             <p className="text-[18px] mb-4">
-                rapporti sessuali non devono provocare dolore; avere dolore nella zona pelvica e genitale durante l’atto
+                I rapporti sessuali non devono provocare dolore; avere dolore nella zona pelvica e genitale durante l’atto
                 sessuale è un chiaro segnale e non deve essere ignorato<br/>
                 Questa condizione è chiamata dispareunia. <br/>
                 All’origine di questa problematica ci sono diversi fattori: nella maggior parte dei casi è dovuta ad una

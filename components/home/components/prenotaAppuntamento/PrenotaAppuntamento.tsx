@@ -47,7 +47,6 @@ export const PrenotaAppuntamento: React.FC<PrenotaAppuntamentoProps> = (
                 servizio: service,
                 data: dataPrenotazione
             }
-            console.log(data)
             await fetch('/api/emailPrenotazione', {
                 method: 'POST',
                 headers: {

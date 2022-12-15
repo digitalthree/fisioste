@@ -27,7 +27,7 @@
     input[type=number] {
         -moz-appearance: textfield;
     }
-    #nome::placeholder, #email::placeholder{
+    #nome::placeholder, #email::placeholder, #number::placeholder{
         color: white ;
     }
     #newsletter::placeholder{
